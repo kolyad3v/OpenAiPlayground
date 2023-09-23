@@ -15,7 +15,7 @@ const openai = new OpenAI({
 const app = express()
 const port = 3000
 
-app.use(cors())
+app.use(cors(), express.json())
 app.get('/', (req, res) => {
 	res.json({ message: `All Good on port ${port}` })
 })
@@ -39,6 +39,38 @@ app.get('/fact', async (req, res) => {
 	})
 	console.log(completion)
 	res.json({ message: `${completion.choices[0].message.content}` })
+})
+
+app.post('/kchat', async (req, res) => {
+	const message: string = req.body.message
+	if (message.trim().length === 0) {
+		res.status(418).json({
+			error: {
+				message: "Don't waste my time with empty words. I have a company to run. ",
+			},
+		})
+		return
+	}
+	try {
+		const completion = await openai.chat.completions.create({
+			messages: [
+				{
+					role: 'user',
+					content: `${message}`,
+				},
+			],
+			model: 'gpt-3.5-turbo',
+			temperature: 0.8,
+			max_tokens: 50,
+		})
+		console.log(completion)
+		res.json({ message: `${completion.choices[0].message.content}` })
+	} catch (error: any) {
+		console.log(error)
+		res
+			.status(500)
+			.json({ error: { message: 'error occured during the request' } })
+	}
 })
 
 app.get('/transcription', async (req, res) => {

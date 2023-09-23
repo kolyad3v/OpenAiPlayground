@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import GetFact from './GetFact'
-import GetTranscription from './GetTranscription'
+
+import KaibaChat from './KaibaChat'
 
 function App() {
 	const [test, setTest] = useState('')
@@ -43,7 +44,12 @@ function App() {
 				requestInProgress={requestInProgress}
 				setrequestInProgress={setrequestInProgress}
 			/>
-			<GetTranscription
+			{/* <GetTranscription
+				requestInProgress={requestInProgress}
+				setrequestInProgress={setrequestInProgress}
+			/> */}
+
+			<KaibaChat
 				requestInProgress={requestInProgress}
 				setrequestInProgress={setrequestInProgress}
 			/>
