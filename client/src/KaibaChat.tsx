@@ -1,16 +1,23 @@
-import React, { FC, ReactNode, useState } from 'react'
+import React, { ChangeEvent, FC, ReactNode, useState } from 'react'
 
 const KaibaChat: FC<{
 	requestInProgress: boolean
 	setrequestInProgress: React.Dispatch<React.SetStateAction<boolean>>
 }> = ({ requestInProgress, setrequestInProgress }): ReactNode => {
-	const [chat, setChat] = useState<string[]>(['screw the rules, I have money'])
-	const [userChat, setUserChat] = useState<string>('second')
+	const [chat, setChat] = useState<string[]>([])
+	const [userChat, setUserChat] = useState<string>('')
+	const [userChatHistory, setUserChatHistory] = useState<string[]>([])
 
 	const sendMessage = async () => {
 		if (!requestInProgress) {
+			if (userChat.length === 0) {
+				alert("please enter a message or don't wast my time")
+				return
+			}
 			try {
 				setrequestInProgress(true)
+				setUserChat('')
+
 				const res = await fetch('http://localhost:3000/kchat', {
 					method: 'POST',
 					headers: {
@@ -22,9 +29,9 @@ const KaibaChat: FC<{
 					throw new Error(`Req failed with status ${res.status}`)
 				}
 				const data = await res.json()
+				setUserChatHistory((userChatHistory) => [...userChatHistory, userChat])
 				setChat((chat) => [...chat, data.message])
 				setrequestInProgress(false)
-				setUserChat('')
 			} catch (error) {
 				alert(error)
 				setrequestInProgress(false)
@@ -35,28 +42,74 @@ const KaibaChat: FC<{
 		}
 	}
 
-	const onchange = (e) => {
+	const sendMessageOnEnter = (e: { keyCode: number }) => {
+		if (e.keyCode === 13) {
+			setUserChat('')
+			sendMessage()
+		}
+	}
+
+	const [cardText, setCardText] = useState('')
+	const getCardTest = async () => {
+		const res = await fetch('http://localhost:3000/kchat/card', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({ card: cardText }),
+		})
+
+		if (res.status !== 200) {
+			throw new Error(`Req failed with status ${res.status}`)
+		}
+		const data = await res.json()
+		console.log(data.name, data.desc)
+	}
+
+	const onchange = (e: ChangeEvent<HTMLTextAreaElement>): void => {
 		setUserChat(`${e.target.value}`)
 	}
+
 	const chatHistory = chat.map((msg, index) => (
-		<p
-			id='bot-text'
-			key={index}
-		>
-			{msg}
-		</p>
+		<div key={index}>
+			{userChatHistory[index] !== null ? (
+				<p id='user-text'>{userChatHistory[index]}</p>
+			) : null}
+			<p id='bot-text'>{msg}</p>
+		</div>
 	))
+
 	return (
 		<>
 			<div>
-				<h3>Speak</h3>
-
+				<img
+					src='./kaiba.jpg'
+					alt='picture of seto, no.2 duelist'
+					style={{ maxHeight: '160px' }}
+				/>
+				<h3>Speak Peasant</h3>
+				{chatHistory}
+				{requestInProgress && (
+					<img
+						src='./loading.gif'
+						style={{
+							height: '80px',
+							position: 'fixed',
+							bottom: '80px',
+							left: '80px',
+							margin: '0 auto',
+						}}
+					/>
+				)}
 				<textarea
 					onChange={onchange}
+					onKeyDown={sendMessageOnEnter}
+					value={userChat}
 					name='textbox'
 					id=''
-					cols={50}
+					cols={70}
 					rows={10}
+					style={{ maxWidth: '480px' }}
 				></textarea>
 				<button
 					onClick={sendMessage}
@@ -64,7 +117,12 @@ const KaibaChat: FC<{
 				>
 					Send
 				</button>
-				{chatHistory}
+				<input
+					type='text'
+					value={cardText}
+					onChange={(e) => setCardText(e.target.value)}
+				/>
+				<button onClick={getCardTest}>GetCard</button>
 			</div>
 		</>
 	)
