@@ -4,9 +4,6 @@ import express from 'express'
 var cors = require('cors')
 import OpenAI from 'openai'
 import fs from 'fs'
-import multer from 'multer'
-import { data } from './apiInfo'
-const upload = multer({ dest: 'uploads/' })
 
 const openai = new OpenAI({
 	apiKey: process.env.OPENAI_API_KEY,
@@ -60,7 +57,8 @@ app.post('/kchat', async (req, res) => {
 	if (message.trim().length === 0) {
 		res.status(418).json({
 			error: {
-				message: "Don't waste my time with empty words. I have a company to run. ",
+				message:
+					"Don't waste my time with empty words. I have a company to run. ",
 			},
 		})
 		return
@@ -184,5 +182,5 @@ function lookupCard(cardName: string) {
 // })
 
 app.listen(port, '0.0.0.0', () => {
-	console.log(`Server running on http://localhost:${port}`)
+	console.log(`Server runninggggggg on http://localhost:${port}`)
 })
