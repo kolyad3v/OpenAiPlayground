@@ -7,9 +7,9 @@
 		"node": "18.x"
 	},
 	"scripts": {
-		"start": "nodemon server/server.ts",
+		"start": "nodemon server.ts",
 		"build": "tsc",
-		"serve": "node dist/server/server.js",
+		"serve": "node dist/server.js",
 		"client": "npm run dev --prefix ./client",
 		"dev": "concurrently \"npm run start\" \"npm run client\""
 	},

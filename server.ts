@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 dotenv.config()
-import express, { Router } from 'express'
+import express, { Router, Request, Response } from 'express'
 import path from 'path'
 var cors = require('cors')
 
@@ -8,13 +8,13 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 app.use(cors(), express.json())
-app.use('/api/fact', require('./Routes/fact'))
-app.use('/api/kaibaChat', require('./Routes/kaibaChat'))
+app.use('/api/fact', require('./routes/fact'))
+app.use('/api/kaibaChat', require('./routes/kaibaChat'))
 // serve static assets in production
 app.use(express.static('client/dist'))
 
-app.get('*', (req, res) => {
-	res.sendFile(path.resolve(__dirname, '../client', 'dist', 'index.html'))
+app.get('*', (req: Request, res: Response) => {
+	res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html'))
 })
 
 app.listen(PORT, () => {
