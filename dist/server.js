@@ -16,7 +16,7 @@ app.use('/api/kaibaChat', require('./routes/kaibaChat'));
 // serve static assets in production
 app.use(express_1.default.static('client/dist'));
 app.get('*', (req, res) => {
-    res.sendFile(path_1.default.resolve(__dirname, 'client', 'dist', 'index.html'));
+    res.sendFile(path_1.default.resolve(__dirname, '../client', 'dist', 'index.html'));
 });
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
