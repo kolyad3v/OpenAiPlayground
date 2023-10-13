@@ -1,29 +1,9 @@
 import { useState } from 'react'
-import './App.css'
-import KaibaChat from './KaibaChat'
+import './styles/App.css'
+import KaibaChat from './components/KaibaChat'
 
 function App() {
 	const [requestInProgress, setrequestInProgress] = useState(false)
-
-	// const testServer = async () => {
-	// 	try {
-	// 		const res = await fetch('http://localhost:3000', {
-	// 			method: 'GET',
-	// 			headers: {
-	// 				'Content-Type': 'application/json',
-	// 			},
-	// 		})
-	// 		console.log(res)
-	// 		if (res.status !== 200) {
-	// 			throw new Error(`Req failed with status ${res.status}`)
-	// 		}
-	// 		const data = await res.json()
-	// 		setTest(data.message)
-	// 	} catch (error) {
-	// 		alert(error)
-	// 	}
-	// }
-
 	return (
 		<>
 			{/* <div>

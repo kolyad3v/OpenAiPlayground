@@ -18,7 +18,7 @@ const KaibaChat: FC<{
 				setrequestInProgress(true)
 				setUserChat('')
 
-				const res = await fetch('http://localhost:3000/kchat', {
+				const res = await fetch('http://localhost:3000/api/kaibaChat', {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
@@ -49,23 +49,6 @@ const KaibaChat: FC<{
 		}
 	}
 
-	const [cardText, setCardText] = useState('')
-	const getCardTest = async () => {
-		const res = await fetch('http://localhost:3000/kchat/card', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({ card: cardText }),
-		})
-
-		if (res.status !== 200) {
-			throw new Error(`Req failed with status ${res.status}`)
-		}
-		const data = await res.json()
-		console.log(data.name, data.desc)
-	}
-
 	const onchange = (e: ChangeEvent<HTMLTextAreaElement>): void => {
 		setUserChat(`${e.target.value}`)
 	}
@@ -73,9 +56,9 @@ const KaibaChat: FC<{
 	const chatHistory = chat.map((msg, index) => (
 		<div key={index}>
 			{userChatHistory[index] !== null ? (
-				<p id='user-text'>{userChatHistory[index]}</p>
+				<p id="user-text">{userChatHistory[index]}</p>
 			) : null}
-			<p id='bot-text'>{msg}</p>
+			<p id="bot-text">{msg}</p>
 		</div>
 	))
 
@@ -83,33 +66,27 @@ const KaibaChat: FC<{
 		<>
 			<div>
 				<img
-					src='./kaiba.jpg'
-					alt='picture of seto, no.2 duelist'
+					src="./kaiba.jpg"
+					alt="picture of seto, no.2 duelist"
 					style={{ maxHeight: '160px' }}
 				/>
 				<h3>Speak Peasant</h3>
 				{chatHistory}
 				{requestInProgress && (
 					<img
-						src='./loading.gif'
-						style={{
-							height: '80px',
-							position: 'fixed',
-							bottom: '80px',
-							left: '80px',
-							margin: '0 auto',
-						}}
+						style={{ display: 'block', width: '80px', margin: '0 auto' }}
+						src="./loading.svg"
 					/>
 				)}
 				<textarea
 					onChange={onchange}
 					onKeyDown={sendMessageOnEnter}
 					value={userChat}
-					name='textbox'
-					id=''
+					name="textbox"
+					id=""
 					cols={70}
 					rows={10}
-					style={{ maxWidth: '480px' }}
+					style={{ maxWidth: '480px', margin: '24px 0' }}
 				></textarea>
 				<button
 					onClick={sendMessage}
@@ -117,12 +94,6 @@ const KaibaChat: FC<{
 				>
 					Send
 				</button>
-				<input
-					type='text'
-					value={cardText}
-					onChange={(e) => setCardText(e.target.value)}
-				/>
-				<button onClick={getCardTest}>GetCard</button>
 			</div>
 		</>
 	)

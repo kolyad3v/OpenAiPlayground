@@ -10,7 +10,7 @@ const GetFact: FC<{
 		if (!requestInProgress) {
 			try {
 				setrequestInProgress(true)
-				const res = await fetch('http://localhost:3000/fact', {
+				const res = await fetch('http://localhost:3000/api/fact', {
 					method: 'GET',
 					headers: {
 						'Content-Type': 'application/json',
