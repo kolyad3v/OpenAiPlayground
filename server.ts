@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 dotenv.config()
-import express, { Router, Request, Response } from 'express'
+import express, { Request, Response } from 'express'
 import path from 'path'
 var cors = require('cors')
 
@@ -14,7 +14,7 @@ app.use('/api/kaibaChat', require('./routes/kaibaChat'))
 app.use(express.static('client/dist'))
 
 app.get('*', (req: Request, res: Response) => {
-	res.sendFile(path.resolve('client', 'dist', 'index.html'))
+	res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html'))
 })
 
 app.listen(PORT, () => {
