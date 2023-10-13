@@ -1,14 +1,19 @@
 import axios, { AxiosResponse } from 'axios'
 import { nanoid } from 'nanoid'
 
-import React, { ChangeEvent, FC, ReactNode, useState } from 'react'
+import React, { ChangeEvent, FC, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-const KaibaChat: FC<{
+interface ChatProps {
 	requestInProgress: boolean
 	setRequestInProgress: React.Dispatch<React.SetStateAction<boolean>>
-}> = ({ requestInProgress, setRequestInProgress }): ReactNode => {
+}
+
+const KaibaChat: FC<ChatProps> = ({
+	requestInProgress,
+	setRequestInProgress,
+}) => {
 	const [chat, setChat] = useState<string[]>([])
 	const [userChat, setUserChat] = useState<string>('')
 	const [conversationHistory, setConversationHistory] = useState<string[]>([])
