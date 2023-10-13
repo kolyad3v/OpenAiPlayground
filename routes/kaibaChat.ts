@@ -1,6 +1,12 @@
 import { Router, Request, Response } from 'express'
-import fs from 'fs'
 import OpenAI from 'openai'
+import {
+	appendToCsv,
+	lookupCard,
+	generateYugiohResponse,
+	standardSystemContent,
+	extractMessageHistoryAsGPTObject,
+} from '../utils'
 
 const router = Router()
 
@@ -8,26 +14,11 @@ const openai = new OpenAI({
 	apiKey: process.env.OPENAI_API_KEY,
 })
 
-const generateYugiohResponse = (message: string) => {
-	return `
-		You're a Yu-Gi-Oh trading card game advisor providing gameplay advice and rulings pretending. You speak about nothing other than yugioh. The question from the user is ${message}. Be direct and speak only about game play. Keep to about 100 words or less. 
-	`
-}
-
-const appendToCsv = (question: string, answer: string): void => {
-	// Escape quotes and wrap each field in quotes
-	const formattedQuestion = `"${question.replace(/"/g, '""')}"`
-	const formattedAnswer = `"${answer.replace(/"/g, '""')}"`
-
-	// Combine question and answer into a single CSV line
-	const csvString = `${formattedQuestion},${formattedAnswer}\n`
-
-	fs.appendFileSync('responses.csv', csvString)
-}
-
 router.post('/', async (req: Request, res: Response) => {
-	const message: string = req.body.message
-	if (message.trim().length === 0) {
+	console.log(req.body)
+	const { messageHistory } = req.body
+	const latestMessage = messageHistory[messageHistory.length - 1]
+	if (latestMessage.trim().length === 0) {
 		res.status(418).json({
 			error: {
 				message:
@@ -44,9 +35,18 @@ router.post('/', async (req: Request, res: Response) => {
 		}[] = [
 			{
 				role: 'system',
-				content: generateYugiohResponse(message),
+				content: standardSystemContent,
 			},
 		]
+		for (let msg of messageHistory) {
+			messages.push(extractMessageHistoryAsGPTObject(msg))
+		}
+
+		messages.push({
+			role: 'user',
+			content: generateYugiohResponse(latestMessage),
+		})
+		console.log(messages)
 
 		const completion = await openai.chat.completions.create({
 			messages,
@@ -103,7 +103,7 @@ router.post('/', async (req: Request, res: Response) => {
 		})
 
 		// Handle Storage of responses
-		const csvString = `"${message}"\n` // Wrap it in quotes to handle commas in the message
+		const csvString = `"${latestMessage}"\n` // Wrap it in quotes to handle commas in the message
 		const csvAnswer = `"${secondResponse.choices[0].message.content}"\n`
 		// Save it to a file (assuming the file already exists)
 		try {
@@ -124,20 +124,5 @@ router.post('/', async (req: Request, res: Response) => {
 			.json({ error: { message: 'error occured during the request' } })
 	}
 })
-
-function lookupCard(cardName: string) {
-	const rawData = fs.readFileSync('cards.json', 'utf-8')
-	const cards = JSON.parse(rawData)
-
-	const regexPattern = cardName.split(/\s+/).join('[-\\s]*')
-	const regex = new RegExp(regexPattern, 'i')
-	console.log(`function called with ${cardName}`)
-	for (let card of cards) {
-		if (regex.test(card.name)) {
-			return JSON.stringify(card)
-		}
-	}
-	return 'false' // Return null if the card is not found
-}
 
 module.exports = router

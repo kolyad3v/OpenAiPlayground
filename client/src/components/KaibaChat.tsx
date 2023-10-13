@@ -1,66 +1,86 @@
+import axios, { AxiosResponse } from 'axios'
+import { nanoid } from 'nanoid'
+
 import React, { ChangeEvent, FC, ReactNode, useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const KaibaChat: FC<{
 	requestInProgress: boolean
-	setrequestInProgress: React.Dispatch<React.SetStateAction<boolean>>
-}> = ({ requestInProgress, setrequestInProgress }): ReactNode => {
+	setRequestInProgress: React.Dispatch<React.SetStateAction<boolean>>
+}> = ({ requestInProgress, setRequestInProgress }): ReactNode => {
 	const [chat, setChat] = useState<string[]>([])
 	const [userChat, setUserChat] = useState<string>('')
-	const [userChatHistory, setUserChatHistory] = useState<string[]>([])
+	const [conversationHistory, setConversationHistory] = useState<string[]>([])
 
-	const sendMessage = async () => {
-		if (!requestInProgress) {
-			if (userChat.length === 0) {
-				alert("please enter a message or don't wast my time")
-				return
-			}
-			try {
-				setrequestInProgress(true)
-				setUserChat('')
+	const handleMessageSend = (): void => {
+		if (testIfEmptyString() || testIfAwaitingResponse()) {
+			return
+		}
+		setUserChat('')
+		setRequestInProgress(true)
+		const updatedHistory = [...conversationHistory, userChat]
+		setConversationHistory(updatedHistory)
+		sendConversation(updatedHistory)
+	}
 
-				const res = await fetch('http://localhost:3000/api/kaibaChat', {
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json',
-					},
-					body: JSON.stringify({ message: userChat }),
-				})
-				if (res.status !== 200) {
-					throw new Error(`Req failed with status ${res.status}`)
-				}
-				const data = await res.json()
-				setUserChatHistory((userChatHistory) => [...userChatHistory, userChat])
-				setChat((chat) => [...chat, data.message])
-				setrequestInProgress(false)
-			} catch (error) {
-				alert(error)
-				setrequestInProgress(false)
-				setUserChat('')
+	const testIfAwaitingResponse = (): boolean => {
+		if (requestInProgress) {
+			toast.warn("I'm working on it!", {
+				position: 'top-center',
+
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				theme: 'dark',
+			})
+			return true
+		}
+		return false
+	}
+
+	const testIfEmptyString = (): boolean => {
+		if (userChat === '') {
+			toast.warn('No empty words please', {
+				position: 'top-center',
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				theme: 'dark',
+			})
+			return true
+		}
+		return false
+	}
+
+	const sendConversation = async (conversationHistoryArray: string[]) => {
+		try {
+			const dataToSend = {
+				messageHistory: [...conversationHistoryArray],
 			}
-		} else {
-			alert('wait your fucking turn')
+			const res: AxiosResponse = await axios.post('/api/kaibaChat', dataToSend)
+
+			if (res.status !== 200) {
+				throw new Error(`Req failed with status ${res.status}`)
+			}
+			setChat((chat) => [...chat, res.data.message])
+			setRequestInProgress(false)
+		} catch (error) {
+			setRequestInProgress(false)
+			console.error(error)
 		}
 	}
 
 	const sendMessageOnEnter = (e: { keyCode: number }) => {
 		if (e.keyCode === 13) {
+			handleMessageSend()
 			setUserChat('')
-			sendMessage()
 		}
 	}
 
 	const onchange = (e: ChangeEvent<HTMLTextAreaElement>): void => {
 		setUserChat(`${e.target.value}`)
 	}
-
-	const chatHistory = chat.map((msg, index) => (
-		<div key={index}>
-			{userChatHistory[index] !== null ? (
-				<p id="user-text">{userChatHistory[index]}</p>
-			) : null}
-			<p id="bot-text">{msg}</p>
-		</div>
-	))
 
 	return (
 		<>
@@ -71,7 +91,14 @@ const KaibaChat: FC<{
 					style={{ maxHeight: '160px' }}
 				/>
 				<h3>Speak Peasant</h3>
-				{chatHistory}
+				{chat.map((msg, index) => (
+					<div key={nanoid()}>
+						{conversationHistory[index] !== null ? (
+							<p id="user-text">{conversationHistory[index]}</p>
+						) : null}
+						<p id="bot-text">{msg}</p>
+					</div>
+				))}
 				{requestInProgress && (
 					<img
 						style={{ display: 'block', width: '80px', margin: '0 auto' }}
@@ -89,12 +116,13 @@ const KaibaChat: FC<{
 					style={{ maxWidth: '480px', margin: '24px 0' }}
 				></textarea>
 				<button
-					onClick={sendMessage}
+					onClick={handleMessageSend}
 					style={{ display: 'block', margin: '0 auto', width: '160px' }}
 				>
 					Send
 				</button>
 			</div>
+			<ToastContainer />
 		</>
 	)
 }

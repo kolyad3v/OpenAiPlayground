@@ -3,7 +3,7 @@ import './styles/App.css'
 import KaibaChat from './components/KaibaChat'
 
 function App() {
-	const [requestInProgress, setrequestInProgress] = useState(false)
+	const [requestInProgress, setRequestInProgress] = useState(false)
 	return (
 		<>
 			{/* <div>
@@ -22,7 +22,7 @@ function App() {
 
 			<KaibaChat
 				requestInProgress={requestInProgress}
-				setrequestInProgress={setrequestInProgress}
+				setRequestInProgress={setRequestInProgress}
 			/>
 		</>
 	)
