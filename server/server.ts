@@ -14,7 +14,7 @@ app.use('/api/kaibaChat', require('./Routes/kaibaChat'))
 app.use(express.static('client/dist'))
 
 app.get('*', (req, res) => {
-	res.sendFile(path.resolve(__dirname, 'client', 'dist', 'index.html'))
+	res.sendFile(path.resolve(__dirname, '../client', 'dist', 'index.html'))
 })
 
 app.listen(PORT, () => {
