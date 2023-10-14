@@ -38,10 +38,11 @@ router.post('/', async (req: Request, res: Response) => {
 				content: standardSystemContent,
 			},
 		]
-		for (let msg of messageHistory) {
-			messages.push(extractMessageHistoryAsGPTObject(msg))
+		if (messageHistory.length > 1) {
+			for (let i = 0; i < messageHistory.length - 1; i++) {
+				messages.push(extractMessageHistoryAsGPTObject(messageHistory[i]))
+			}
 		}
-
 		messages.push({
 			role: 'user',
 			content: generateYugiohResponse(latestMessage),

@@ -250,3 +250,291 @@ Remember, field spell cards can greatly impact the flow of the game, so choose w
 how many life points do you start with""
 ","""In the Yu-Gi-Oh trading card game, each player starts with 8000 life points.""
 "
+"""what are the 4 categories of effects for effect monsters? ""
+","""Ah, a question about the fundamental categories of effects for effect monsters. Let me enlighten you, mere mortal.
+
+The four categories of effects for effect monsters are as follows:
+
+1. Ignition Effects: These effects are activated by the player during their Main Phase. They typically have a cost that must be paid, such as discarding a card or tributing a monster, and then they resolve to produce a specific effect.
+
+2. Trigger Effects: These effects are triggered by specific events, such as when a certain condition is met or when a specific action occurs. They activate automatically and resolve immediately after the triggering event.
+
+3. Quick Effects: These effects can be activated during either player's turn, typically during specific phases or in response to certain actions. They often have a specific timing window in which they can be activated, allowing for strategic plays and disruptions.
+
+4. Continuous Effects: These effects are always active as long as the monster remains face-up on the field. They can modify various aspects of the game, such as altering ATK/DEF values, restricting certain actions, or granting additional abilities.
+
+Remember, understanding the different categories of effects is crucial for mastering the intricacies of the game. Now go forth and duel with newfound knowledge!""
+"
+"""
+what is an ignition effect""
+","""Ah, an ignition effect. How quaint. An ignition effect is one of the four categories of effects for effect monsters. It is an effect that can be activated during your Main Phase 1 or Main Phase 2, but not during the Battle Phase. These effects are typically activated by the player manually, hence the name ""ignition."" They often provide various advantages or disruptions to the game state. Remember, timing is everything in the world of dueling.""
+"
+"""
+what is a link monster""
+","""Ah, a question about link monsters. How delightful. A link monster is a type of monster introduced in the Yu-Gi-Oh! VRAINS era. They have a unique appearance with arrows pointing in different directions. These arrows represent Link Markers, which determine the zones to which other monsters can be summoned or moved.
+
+Link monsters have a few distinct characteristics. Firstly, they do not possess DEF points, only ATK points. Secondly, they do not have levels, but instead have Link Ratings, which range from 1 to 8. The Link Rating determines the number of Link Markers the monster has.
+
+When a link monster is summoned, you must place it in one of your Extra Monster Zones or a Main Monster Zone that a Link Monster's Link Marker points to. This allows for strategic placement and opens up new possibilities for summoning and positioning other monsters on the field.
+
+Link monsters also have Link Summoning requirements, which are specified by the number and types of monsters needed to perform the summon. These requirements are indicated by the arrows on the link monster itself.
+
+In terms of gameplay, link monsters have brought about a new mechanic called Link Summoning, which involves sending monsters from the field to the Graveyard as Link Materials to summon a link monster. This mechanic has greatly impacted the game and introduced new strategies and deck-building possibilities.
+
+So, in summary, a link monster is a unique type of monster with Link Markers that determine where other monsters can be summoned or moved. They have Link Ratings instead of levels, and their summoning requires specific monsters as Link Materials.""
+"
+"""
+howw do you link summon""
+","""Ah, the art of Link Summoning, a technique that revolutionized the game. To perform a Link Summon, you must follow these steps:
+
+1. Have the necessary materials: You need at least 1 Link Monster in your Extra Deck that you wish to summon, and the appropriate number of monsters on your field to use as Link Materials. Each Link Monster specifies the number and types of monsters required.
+
+2. Choose the Link Monster: Select the Link Monster from your Extra Deck that you want to summon. Pay attention to its Link Rating, which is indicated by the arrows on the card.
+
+3. Select the Link Materials: Choose the monsters on your field that you want to use as Link Materials. The number of monsters required must match the Link Rating of the Link Monster you wish to summon.
+
+4. Send the Link Materials to the Graveyard: Send the selected monsters from your field to the Graveyard. This is a cost for performing the Link Summon.
+
+5. Summon the Link Monster: Place the Link Monster in one of your Extra Monster Zones or a Main Monster Zone that a Link Monster points to. Make sure to align the Link Monster's arrows correctly to maximize its potential.
+
+Remember, Link Monsters do not have Levels, so they cannot be used for Ritual, Synchro, or Xyz Summons. They can only be used as Link Materials for other Link Summons.
+
+Now, go forth and Link Summon with confidence!""
+"
+"""
+what are xyz monsters""
+","""Ah, XYZ Monsters, a fascinating addition to the Yu-Gi-Oh trading card game. XYZ Monsters are a type of monster that are summoned by overlaying two or more monsters of the same level. These monsters are placed in the Extra Deck and have a Rank instead of a Level. 
+
+To summon an XYZ Monster, you must have the required number of monsters with the same level on the field. You then overlay them by stacking the monsters on top of each other, forming the XYZ Material. The XYZ Monster is then placed on top of the stack, and its Rank determines its strength and effects.
+
+XYZ Monsters have unique abilities that can be activated by detaching one or more XYZ Materials from them. These effects can range from destroying cards on the field to negating the effects of your opponent's monsters. Keep in mind that detaching XYZ Materials is a cost, so be strategic in using these effects.
+
+Additionally, XYZ Monsters do not have a set Level, so they cannot be used for Synchro or Ritual Summons. However, they can be used as material for Link Summons, as long as they meet the requirements of the Link Monster being summoned.
+
+Remember, XYZ Monsters can be a powerful addition to your deck, but be sure to carefully consider the monsters you overlay to summon them and the effects you activate.""
+"
+"""diabound kernel
+""
+","""Diabound Kernel is an Effect Monster with the following effect:
+
+- When this card declares an attack, it gains 600 ATK.
+- (Quick Effect): You can target 1 face-up monster your opponent controls; it loses ATK equal to this card's current ATK until the end of this turn. Then, banish this card until the Standby Phase of the next turn.
+- You can only use this effect of ""Diabound Kernel"" once per turn.
+
+Diabound Kernel has an ATK of 1800 and a DEF of 1200. It is a Level 5 Fiend-type monster with the DARK attribute.
+
+Here is an image of Diabound Kernel: [Diabound Kernel](https://images.ygoprodeck.com/images/cards/51644030.jpg)
+
+Please note that the prices and availability of the card may vary.""
+"
+"""diabound kernel
+""
+","""Diabound Kernel is an Effect Monster with the following details:
+
+- Name: Diabound Kernel
+- Type: Effect Monster
+- Level: 5
+- Attribute: DARK
+- Race: Fiend
+- ATK: 1800
+- DEF: 1200
+
+Effect:
+- When this card declares an attack, it gains 600 ATK.
+- (Quick Effect): You can target 1 face-up monster your opponent controls. It loses ATK equal to this card's current ATK until the end of this turn. Then, banish this card until the Standby Phase of the next turn.
+- You can only use this effect of ""Diabound Kernel"" once per turn.
+
+Here is an image of Diabound Kernel:
+
+<img src=""https://images.ygoprodeck.com/images/cards/51644030.jpg"" alt=""Diabound Kernel"" />""
+"
+"""
+whats a ritual monster""
+","""A Ritual Monster is a type of monster card in the Yu-Gi-Oh trading card game. Ritual Monsters are special monsters that can only be summoned by performing a Ritual Summon. To perform a Ritual Summon, you need a specific Ritual Spell Card and the required monsters as Tribute. The Tribute monsters must have a combined Level equal to or greater than the Level of the Ritual Monster you want to summon. Once the requirements are met, you can Ritual Summon the monster from your hand or the field. Ritual Monsters often have powerful effects and can be a key part of certain deck strategies.""
+"
+"""how many times can I normal set per turn?""
+","""You can Normal Set only once per turn.""
+"
+"""
+what about flip summon?""
+","""When it comes to flip summoning, you can only perform one flip summon per turn. This means that you can only flip summon one face-down monster during your Main Phase. Keep in mind that flip summoning is considered a special summon, so you cannot perform a flip summon if you have already performed a special summon that turn, unless a card effect allows you to do so.""
+"
+"""
+flip""
+","""A flip summon is a special type of summoning method in the Yu-Gi-Oh trading card game. It allows you to flip a face-down monster card on your side of the field into face-up attack or defense position. This can only be done during your Main Phase 1 or Main Phase 2. However, please note that you can only perform one flip summon per turn.""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What specific aspect of the Yu-Gi-Oh trading card game would you like assistance with? Rulings, deck building, strategy, or perhaps card recommendations?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What specific aspect of the Yu-Gi-Oh trading card game would you like assistance with?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What specific aspect of the Yu-Gi-Oh trading card game would you like assistance with? Rulings, deck building, strategies, or perhaps card recommendations?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What specific aspect of the Yu-Gi-Oh trading card game would you like assistance with?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What specific aspect of the Yu-Gi-Oh trading card game would you like assistance with? Rules, strategies, deck building, or perhaps card recommendations?""
+"
+"""what's a spell and trap card""
+","""Ah, a question about the fundamentals of the game. A spell card and a trap card are both types of cards in the Yu-Gi-Oh trading card game. 
+
+A spell card is a card that can be played from your hand directly onto the field. It can have various effects, such as allowing you to summon monsters, increase your life points, or disrupt your opponent's strategies. Spell cards are usually colored green and have a lightning bolt symbol on them. 
+
+A trap card, on the other hand, is a card that is set face-down on the field and can be activated in response to a specific event or condition. Trap cards can have a wide range of effects, such as destroying your opponent's monsters, negating their card effects, or protecting your own cards. Trap cards are usually colored purple and have a bear trap symbol on them. 
+
+Remember, both spell and trap cards are essential tools in your dueling arsenal. Use them wisely to outwit and outmaneuver your opponents. If you have any specific questions about spell or trap cards, feel free to ask!""
+"
+"""
+what are the victory conditions""
+","""The victory conditions in the Yu-Gi-Oh trading card game are as follows:
+
+1. Reduce your opponent's Life Points to 0: By attacking your opponent directly or through card effects, you can decrease their Life Points to 0. If their Life Points reach 0, you win the duel.
+
+2. Deck out your opponent: If your opponent is unable to draw a card from their deck when required, they lose the duel. This can happen when their deck is empty or when a card effect forces them to draw but they cannot.
+
+3. Special conditions: Some cards or effects may have specific victory conditions. These conditions are usually stated on the card itself and can vary depending on the card's effect.
+
+Remember, the victory conditions can differ in certain game formats or tournament rules, so it's always important to check the specific rules for the event you are participating in.""
+"
+"""
+what are the phases of a turn""
+","""Ah, the phases of a turn, a fundamental aspect of the Yu-Gi-Oh trading card game. A turn consists of six phases, each serving a specific purpose. Let me break them down for you:
+
+1. Draw Phase: This is the first phase of a player's turn. The turn player draws 1 card from their deck. Simple enough, right?
+
+2. Standby Phase: The second phase is the Standby Phase. Some cards and effects may activate during this phase, so be prepared.
+
+3. Main Phase 1: Now we move on to the Main Phase 1. Here, players can summon or set monsters, activate spell and trap cards, and perform various other actions. It's a crucial phase for setting up your strategy.
+
+4. Battle Phase: Ah, the Battle Phase, where the action really heats up. During this phase, players can declare attacks with their monsters, activate certain effects, and engage in epic duels. Prepare your monsters for battle!
+
+5. Main Phase 2: After the Battle Phase, we have the Main Phase 2. Similar to Main Phase 1, players can summon or set monsters, activate spell and trap cards, and make strategic moves. Use this phase wisely to further solidify your position.
+
+6. End Phase: Finally, we reach the End Phase. Some effects and cards may trigger during this phase, so pay attention. Once this phase concludes, the turn ends, and it's time for the next player to take their turn.
+
+Remember, understanding and mastering the phases of a turn is crucial for success in the Yu-Gi-Oh trading card game. Now, go forth and dominate your opponents!""
+"
+"""
+what is a chain""
+","""Ah, the concept of a chain in the Yu-Gi-Oh trading card game. A chain is a sequence of card effects that are activated in response to each other. When a player activates a card effect or a card effect is triggered, it starts a chain. Other players then have the opportunity to respond by activating their own card effects or using certain game mechanics.
+
+Each effect in the chain resolves in reverse order, meaning the last effect activated resolves first. This can create strategic opportunities for players to interrupt or disrupt their opponent's plays.
+
+Remember, a chain can only be formed if the effects meet certain activation conditions and timing requirements. It's important to carefully consider the effects of cards and the order in which they are activated to maximize your advantage.
+
+Here's an image of a chain link to help you visualize it: <img src=`https://i.imgur.com/7XQ0F5z.png` alt=`Chain Link` />""
+"
+"""
+how many of DESTINY HERO – MALICIOUS can I use in my deck?""
+","""According to my database, you can have up to 3 copies of ""Destiny HERO - Malicious"" in your deck.""
+"
+"""
+what does excavate mean?""
+","""In the context of the Yu-Gi-Oh trading card game, ""excavate"" refers to the action of revealing cards from the top of your deck and placing them face-up. This is usually done as part of a card effect or game mechanic.""
+"
+"""
+test""
+","""In the Yu-Gi-Oh trading card game, a test is not a valid gameplay term or action. Could you please provide a specific question or topic related to the game? I am here to assist you with any Yu-Gi-Oh related inquiries you may have.""
+"
+"""
+test""
+","""As an AI built by Kaiba Corporation, I am here to provide you with gameplay advice and rulings help for the Yu-Gi-Oh trading card game. How can I assist you today?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What specific aspect of the Yu-Gi-Oh trading card game would you like assistance with? Rules, strategies, deck building, or perhaps card recommendations?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What aspect of the Yu-Gi-Oh trading card game do you require assistance with?""
+"
+"""tes""
+","""Ah, I see you're interested in the Yu-Gi-Oh trading card game. How can I assist you with your gameplay questions or rulings?""
+"
+"""test""
+","""Ah, a test, you say? Very well then. What aspect of the Yu-Gi-Oh trading card game do you require assistance with?""
+"
+"""test""
+","""Ah, a fellow duelist! How may I assist you with your Yu-Gi-Oh gameplay inquiries?""
+"
+"""test""
+","""Ah, a test, you say? Very well, let's get down to business. What aspect of the Yu-Gi-Oh trading card game would you like assistance with? Rulings, deck building, strategies, or perhaps card recommendations?""
+"
+"""test""
+","""Ah, a fellow duelist! How may I assist you in your Yu-Gi-Oh adventures?""
+"
+"""test""
+","""Ah, a fellow duelist! How may I assist you in your Yu-Gi-Oh endeavors?""
+"
+"""test""
+","""Ah, a fellow duelist! How may I assist you with your Yu-Gi-Oh gameplay inquiries?""
+"
+"""test""
+","""Ah, a test, huh? Very well, let's see what you've got. Ask me anything about the Yu-Gi-Oh trading card game, and I'll provide you with the most accurate and direct gameplay advice and rulings help. Don't hold back!""
+"
+"""dark magician""
+","""The Dark Magician is a Level 7 Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a Normal Monster and its effect states: ""The ultimate wizard in terms of attack and defense.""
+
+Here is an image of Dark Magician:
+<img src=""https://images.ygoprodeck.com/images/cards/46986414.jpg"" alt=""Dark Magician"" />""
+"
+"""dark mag""
+","""The Dark Magician is a Level 7 DARK Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a Normal Monster and part of the Dark Magician archetype. Here is an image of the Dark Magician:
+
+<img src=`https://images.ygoprodeck.com/images/cards/46986414.jpg` alt=`Dark Magician` />
+
+Please note that the prices and availability of the card may vary.""
+"
+"""
+diabound kernel""
+","""Diabound Kernel is an Effect Monster card with the following details:
+
+- Type: Effect Monster
+- Level: 5
+- Attribute: DARK
+- Race: Fiend
+- ATK: 1800
+- DEF: 1200
+
+Here is an image of Diabound Kernel:
+
+<img src=`https://images.ygoprodeck.com/images/cards/51644030.jpg` alt=`Diabound Kernel` />
+
+When Diabound Kernel declares an attack, it gains 600 ATK. Additionally, as a Quick Effect, you can target 1 face-up monster your opponent controls. That monster loses ATK equal to Diabound Kernel's current ATK until the end of this turn. After using this effect, Diabound Kernel is banished until the Standby Phase of the next turn. Please note that you can only use this effect of Diabound Kernel once per turn.
+
+If you have any more questions or need further assistance, feel free to ask!""
+"
+"""test
+""
+","""Greetings, duelist! How may I assist you with your Yu-Gi-Oh gameplay inquiries?""
+"
+"""dark mag""
+","""The Dark Magician is a Level 7 DARK Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a Normal Monster and part of the Dark Magician archetype. Here is an image of the Dark Magician:
+
+<img src=`https://images.ygoprodeck.com/images/cards/46986414.jpg` alt=`Dark Magician` />
+
+Please note that the prices and availability of the card may vary.""
+"
+"""whats a monster
+""
+","""A monster in the Yu-Gi-Oh trading card game refers to a type of card that represents creatures, beings, or entities that can be summoned to the field to battle against your opponent. Monsters have various attributes, levels, types, and effects that can greatly impact the gameplay. They are the core cards used to attack, defend, and strategize during duels.""
+"
+"""test""
+","""Ah, a test, huh? Very well, let's see what you've got. Ask me anything about the Yu-Gi-Oh trading card game, and I'll provide you with the most accurate and direct gameplay advice and rulings help. Don't hold back!""
+"
+"""test""
+","""Ah, a fellow duelist! How may I assist you in your Yu-Gi-Oh endeavors?""
+"
+"""tsetr""
+","""Ah, I see you're trying to test my knowledge and expertise in the Yu-Gi-Oh trading card game. Very well, I'm ready to assist you with any gameplay questions or rulings you may have. Just ask away!""
+"
+"""sdf""
+","""Greetings, duelist! How may I assist you with your Yu-Gi-Oh gameplay inquiries?""
+"
+"""test""
+","""Ah, a fellow duelist seeking guidance in the world of Yu-Gi-Oh! How may I assist you today?""
+"
+"""what was the 1st message I sent to you? ""
+","""Apologies for the confusion. The first message you sent was ""test"". How can I assist you with the Yu-Gi-Oh trading card game?""
+"

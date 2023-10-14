@@ -1,509 +1,1028 @@
-[{
-
-    "deck": {
-
-
-        "rules": [
-
-            "The Deck must be 40 to 60 cards.",
-
-            "You can only have up to 3 copies of the same card in your Deck, Extra Deck and Side Deck combined."
-
-        ],
-
-        "Notes": [
-
-            "Also, some cards are Forbidden, Limited or Semi-Limited in official tournaments. (See page 45 for details.)",
-
-            "Try to keep your Deck close to the 40-card minimum. Having a Deck with too many cards makes it hard to draw your best cards when you need them.",
-
-            "This Deck is called your Main Deck."
-
-        ]
-
-    }, 
-    "extra deck": {
-
-        "rules": [
-
-           "You can have up to 15 cards in the Extra Deck. The Extra Deck can contain Xyz Monsters, Synchro Monsters and Fusion Monsters, in any combination. These cards are not counted towards the 40-card minimum limit of your Main Deck"]
-    }, 
-    "side deck": {
-
-     
-
-        "rules": ["This is a separate Deck of cards you can use to change your Deck
-        during a Match. After each Duel in a Match, you can swap any card
-        from your Side Deck with a card from your Deck and/or Extra Deck to
-        customize your strategy against your opponent. The number of cards in
-        your Side Decks must not exceed 15. The number of cards in your Side
-        Deck before and after you swap any cards must be exactly the same."
-           
-        ]
-
-     
-
-    }, 
-    " additional items ": {
-
-        " Coin": "Some cards require a coin toss. If you
-        play with these, have a coin ready to
-        flip.",
-        "Dice": "just like the coin, there are some
-        cards that need a die roll. If you play
-        with these, have a standard die ready
-        with numbers 1 through 6.",
-
-        "Counters": [" Some cards will require markers
-        (called counters) to keep track of
-        things like the number of turns, or a
-        card’s power level. You can use small
-        objects like glass beads, paper clips,
-        or pennies for the counters, which are
-        then placed on these face-up cards."],
-
-        "Monster Tokens": [" Tokens are used to represent
-        monsters that can be created by card
-        effects. Any object used for a Token
-        needs to have two distinct ways to
-        place it that can clearly indicate the
-        monster’s battle position. "],
-        "Calculator": ["LP changes quickly during a Duel. It’s
-        smart to use a calculator to keep track
-        of your LP. During important Duels,
-        you should track your LP on paper as
-        well to be extra-careful. "],
-        "Card Sleeves": ["Plastic sleeves can prevent your cards
-        from getting bent or scratched. If you
-        use card sleeves, they all have to be
-        the same so your cards aren’t marked"],
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-, 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
-    }
-    , 
-    " ": {
-
-        
-
-        "": [" "],
-
-     
-
+[
+	{
+		"deck": {
+			"rules": [
+				"The Deck must be 40 to 60 cards.",
+				"You can only have up to 3 copies of the same card in your Deck, Extra Deck and Side Deck combined."
+			],
+			"notes": [
+				"Also, some cards are Forbidden, Limited or Semi-Limited in official tournaments. (See page 45 for details.)",
+				"Try to keep your Deck close to the 40-card minimum. Having a Deck with too many cards makes it hard to draw your best cards when you need them.",
+				"This Deck is called your Main Deck."
+			]
+		},
+		"extraDeck": {
+			"rules": [
+				"You can have up to 15 cards in the Extra Deck. The Extra Deck can contain Xyz Monsters, Synchro Monsters and Fusion Monsters, in any combination. These cards are not counted towards the 40-card minimum limit of your Main Deck."
+			]
+		},
+		"sideDeck": {
+			"rules": [
+				"This is a separate Deck of cards you can use to change your Deck during a Match. After each Duel in a Match, you can swap any card from your Side Deck with a card from your Deck and/or Extra Deck to customize your strategy against your opponent. The number of cards in your Side Decks must not exceed 15. The number of cards in your Side Deck before and after you swap any cards must be exactly the same."
+			]
+		},
+		"additionalItems": {
+			"coin": "Some cards require a coin toss. If you play with these, have a coin ready to flip.",
+			"dice": "Just like the coin, there are some cards that need a die roll. If you play with these, have a standard die ready with numbers 1 through 6.",
+			"counters": [
+				"Some cards will require markers (called counters) to keep track of things like the number of turns, or a card’s power level. You can use small objects like glass beads, paper clips, or pennies for the counters, which are then placed on these face-up cards."
+			],
+			"monsterTokens": [
+				"Tokens are used to represent monsters that can be created by card effects. Any object used for a Token needs to have two distinct ways to place it that can clearly indicate the monster’s battle position."
+			],
+			"calculator": [
+				"LP changes quickly during a Duel. It’s smart to use a calculator to keep track of your LP. During important Duels, you should track your LP on paper as well to be extra-careful."
+			],
+			"cardSleeves": [
+				"Plastic sleeves can prevent your cards from getting bent or scratched. If you use card sleeves, they all have to be the same so your cards aren’t marked"
+			]
+		},
+
+		"gameMat": {
+			"note": "The Game Mat helps you organize your cards during a Duel. When you use your cards you place them on the Game Mat. Different kinds of cards are placed in different Zones. Each Duelist needs their own Game Mat; place them together while Dueling. This combined space is known as 'the field.' The Game Mat contained in this product is just for your half of the field. The cards you 'control' are the cards on your side of the field. You can also Duel without using the Game Mat as long as you remember where to place the cards.",
+			"Main_Monster_Zone": "This is where you put your monsters when they're played. You can have up to 5 cards here. There are 3 ways to position your Monster Cards: face-up Attack Position, face-up Defense Position, and face-down Defense Position. Place the card upright for Attack Position, and sideways for Defense Position.",
+			"Spell_Trap_Zone_Pendulum_Zone": "This is where you put Spell & Trap Cards. You can have up to 5 cards here. You place them here face-up to activate them, or place them face-down. Pendulum Monster Cards can be activated in the leftmost and rightmost zones as Spells. This causes the zone you use to also become a Pendulum Zone for as long as the Pendulum Monster Card is there.",
+			"Graveyard_GY": "When Monster Cards are destroyed, and when Spell & Trap Cards are used, they're sent face-up to this space. The contents of both players' Graveyards are public knowledge, and your opponent can look through yours at any time during the Duel. The order of the cards in the Graveyard should not be changed. Graveyard is shortened in the card text to 'GY'.",
+			"Deck": "Your Deck is placed face-down in this space. You draw cards from here to add to your hand. If a card effect requires you to reveal cards from your Deck, or look through it, shuffle it and put it back in this space afterwards.",
+			"Field_Zone": "Special Spell Cards called Field Spell Cards are played here. Each player can have 1 Field Spell Card on their own side of the field. To use another Field Spell, send your previous one to the Graveyard. Field Spell Cards do not count towards the 5-card limit of your Spell & Trap Zone.",
+			"Extra_Deck": "Place your Extra Deck face-down in this space. You can look at the cards in your own Extra Deck during the game. During a Duel, Extra Deck Monsters may be Summoned to the field from here using special methods. Pendulum Monster Cards that would be sent from the field to the Graveyard are placed face-up here.",
+			"Extra_Monster_Zone": "This is where you put your monsters that are Summoned to the field by special methods from the Extra Deck, like Link Monsters and Fusion Monsters. Normally, each player can only use 1 of these zones. A monster placed in this zone does not count towards the 5-monster limit of your Main Monster Zone."
+		},
+		"Monster_Cards": {
+			"notes": "This is the card's name. When a card name is mentioned in card text it appears in quotations. If cards have the same name, they are considered to be the same card. Count the number of stars here to find out the monster's Level. For Xyz Monsters, the number of stars is the Rank of the monster, and is on left. Every monster has an Attribute. This Attribute is sometimes important for card effects. Monsters are divided into various Types. Some monsters with specific abilities will have additional information here too, next to their Type. A card's identification number is found here. This number is useful for collecting, and for sorting your collection. ATK is a monster's Attack Points and DEF is a monster's Defense Points. High Attack and Defense Points are good when battling! Card effects are written here, describing the monster's special abilities and how to use them. Normally, the effects of monsters cannot be used while they are Set face-down on the field. Yellow Normal Monster Cards do not have effects, and have a description of them written here that does not affect the game. Monster Cards are used to battle and defeat your opponent. Battles between Monster Cards are the foundation of any Duel. There are many kinds of Monster Cards. This game is more than a simple slugfest, so monsters with high Attack and Defense Points will not be enough. There are also monsters with strong special effects even though their ATK and DEF points are low. Therefore, your success in a Duel depends on how skillfully you can make use of the different kinds of cards. Let's take a look at the different kinds of monsters."
+		},
+		"monster_effects": {
+			"Ignition_Effect": "You use this type of effect just by declaring its activation during your Main Phase. There are some Ignition Effects that have a cost to activate, like discarding cards from your hand, Tributing a monster, or paying LP. Because you can choose when to activate this type of effect, it's easy to create combos with them.",
+			"Trigger_Effect": "These effects are activated at specific times, such as 'during the Standby Phase' or 'when this monster is destroyed'. These cards can make for some great combos, but it's easier for your opponent to predict what will happen, so they might try to stop you.",
+			"Quick_Effect": "These are special monster effects that you can activate even during your opponent's turn. These types of effects have a Spell Speed of 2, even though all other monster effects have a Spell Speed of 1. Since it's difficult for your opponent to predict these cards, they can give them an unexpected surprise.",
+			"Flip_Effect": "Flip effect is a part of the Trigger Effect. This is an effect that is activated when a face-down card is flipped face-up. This can happen when it is Flip Summoned, attacked while face-down, or flipped face-up by a card effect. These effects start with the word 'FLIP:' on the card. When you have a face-down monster, your opponent must be wary because they don't know if it has a Flip effect or not"
+		},
+
+		"LINK MONSTERS": {
+			"notes": "A Link Monster is a new kind of monster with the ability to increase the number of monsters you can Summon from your Extra Deck. In addition to the 1 Extra Monster Zone you can usually use, you can also Summon monsters from the Extra Deck to any of your Main Monster Zones that has a Link Monster’s red arrow pointing to it. Link Arrows - A Link Monster can apply its effects on cards or zones that its lit-up, red Link Arrows point to. When a Link Monster’s red arrow points to a monster, those monsters are “linked”. When two Link Monsters have red arrows that point at each other, they are “co-linked”. Link Materials - These are the Link Materials you need to Summon this Monster. Use this “recipe” printed here to Link Summon this monster. LINK Rating - This is the number of Link Arrows that monster has and the number of monsters needed to Summon it. Link Monsters have no DEF and cannot ever be in Defense Position. They can’t be changed to Defense Position by a card effect. They can’t even be flipped into face-down Defense Position. If your opponent has a monster in the Extra Monster Zone, it’s still a monster they control so you can’t attack directly. You have to battle and destroy all their monsters first, including the one in the Extra Monster Zone. If you take control of your opponent’s monster in the Extra Monster Zone, it moves to your Main Monster Zone. When it goes back to your opponent, it goes to their Main Monster Zone, not the Extra Monster Zone. As long as the materials meet the requirements of the Link Monster you want to Summon, you can use a Token or Trap Card that is treated as a monster as the Link Material. Remember that when you Link Summon, you need to meet 3 goals: The amount of materials you use matches the Link Rating (Link Monsters count as 1 OR their own Link Rating). The number of materials you use meets the number specified in the materials line or “recipe”. The materials match any other requirements in the materials line (such as only Effect Monsters, or only a specific Type of monster)."
+		},
+		"PENDULUM MONSTER CARDS": {
+			"notes": [
+				"Pendulum Monster Cards are a unique kind of card that blurs the line between Monsters and Spells! They can be Summoned as monsters to attack or defend, or you can activate them as Spell Cards in your Pendulum Zones to activate extra special abilities and allow you to Pendulum Summon!",
+				"Pendulum Effect - When you play this card as a Spell Card in your Pendulum Zone, this is its effect. Some Pendulum Monster Cards may not have Pendulum Effects. During your Main Phase, activate Pendulum Monster Cards as Spell Cards in your leftmost and rightmost Spell & Trap Zones. These Spell & Trap Zones also become Pendulum Zones. After you have one in each Pendulum Zone, once per turn during your Main Phase, declare that you’re Pendulum Summoning. Check the Pendulum Scales on the sides of your 2 Pendulum Monster Cards, then Special Summon as many monsters as you want from your hand and as many face-up Pendulum Monsters from your Extra Deck, whose Levels are in between those Pendulum Scales. Whenever one of your Pendulum Monster Cards on the field (regardless of which Zone it is in, or even if it is a monster or not) would be sent to the Graveyard, place it face-up on your Extra Deck instead. You can Pendulum Summon it back to the field later! Monsters Pendulum Summoned from the Extra Deck must be Summoned to the Extra Monster Zone or your Main Monster Zone pointed to by a Link Monster."
+			]
+		},
+		"XYZ MONSTERS": {
+			"notes": [
+				"Xyz Monsters (pronounced “ik-seez”) are a powerful kind of monster! You can Summon an Xyz Monster whenever you control monsters that are the same Level. Xyz Monsters start in your Extra Deck, not in your Main Deck, and wait for you to call them into action. Materials needed for an Xyz Summon Xyz Monster’s Rank - This is the Rank of your Xyz Monster. Xyz Monsters have Ranks instead of Levels. Stronger Xyz Monsters have higher Ranks. This is a Rank 4 Xyz Monster. Xyz Materials - These are the Xyz Materials you need to Summon this monster. You use 2 Level 4 Monsters as the Xyz Materials to Summon this monster. Xyz Materials must be face-up before you can use them. Xyz Summoning is your cool and easy way to Special Summon Xyz Monsters from your Extra Deck. Here’s how to do it! Choose an Xyz Monster from your Extra Deck that you have the right Xyz Materials for. The Xyz Materials should be face-up on your field. During your Main Phase, declare that you are Xyz Summoning and stack the Xyz Materials on top of each other. Take the Xyz Monster from your Extra Deck and put it on top of the stacked Xyz Materials in the Extra Monster Zone in face-up Attack or Defense Position. LEVEL 4 LEVEL 4 Xyz Summon! If there is a Link Monster on the field, you can Xyz Summon a monster in one of your zones it points to. When an Xyz Monster tells you to “detach” a material, take one of the stacked Xyz Material cards beneath your Xyz Monster and put it in the Graveyard."
+			]
+		},
+		"SYNCHRO MONSTERS": {
+			"notes": [
+				"Synchro Monsters are placed in the Extra Deck, separate from the Main Deck. You can Special Summon a powerful Synchro Monster to the field in an instant just by using the Levels of your monsters. They can be Synchro Summoned from the Extra Deck by sending 1 face-up “Tuner” monster and any number of face-up non-Tuner monsters from your field to the Graveyard, when the sum of all their Levels is exactly equal to the Level of the Synchro Monster.",
+				"HOW TO SYNCHRO SUMMON During your Main Phase, you can declare a Synchro Summon when the combined total Levels of 1 face-up Tuner monster and any number of other face-up monsters you control are equal to the Level of the Synchro Monster you want to Synchro Summon. LEVEL 2LEVEL 3 LEVEL 5In order to Synchro Summon a Synchro Monster, you need 1 Tuner (look for “Tuner” next to its Type). The Tuner monster and other face-up monsters you use for the Synchro Summon are called Synchro Materials. The sum of their Levels is the Level of Synchro Monster you can Summon. After double-checking the Level of the Synchro Monster you want, send the face-up Synchro Materials from your field to the Graveyard. After sending the Synchro Materials from the field to the Graveyard, take the Synchro Monster from your Extra Deck and play it in face-up Attack or Defense Position in one of your vacant Monster Zones. The newly Summoned monster is now a Synchro Monster and can attack and use its effects!"
+			]
+		},
+
+		"FUSION MONSTERS": {
+			"notes": [
+				"Fusion Monsters are also placed in your Extra Deck (not in your Main Deck). They are Summoned by using the specific monsters listed on the card (called Fusion Materials) combined with a Summoning card like Polymerization. They usually have special abilities and very high Attack Points as well. Since Fusion Summons require specific cards, be sure and include those necessary cards in your Main Deck!",
+				"HOW TO FUSION SUMMON: If you have all the Fusion Materials listed on the Fusion Monster Card, in the places specified on your Summoning card, you can activate your Summoning card by placing it in your Spell & Trap Zone. Send the Fusion Materials to the Graveyard, then take the appropriate Fusion Monster from your Extra Deck and play it in the Extra Monster Zone in either face-up Attack or Defense Position. Finally, place your Summoning card in the Graveyard. (If another card effect causes your Fusion Materials to be sent to a place other than the Graveyard when your Summoning card resolves, send them to that other place, but the Fusion Summon still happens anyway.)"
+			]
+		},
+
+		"RITUAL MONSTERS": {
+			"notes": [
+				"Ritual Monsters are special monsters that are Special Summoned with a specific Ritual Spell Card, along with a required Tribute. Ritual Monster Cards are placed in the Main Deck and cannot be Summoned unless you have all the proper cards together in your hand or on the field. Ritual Monsters generally have high ATK and DEF and some have special abilities, just like Fusion Monsters.",
+				"HOW TO RITUAL SUMMON: When you have a Ritual Spell Card, along with the matching Ritual Monster Card, in your hand, along with the required Tribute (as listed on the Ritual Spell Card), you can activate the Ritual Spell Card, placing it in the Spell & Trap Zone. If the activation of the Ritual Spell Card is successful, Tribute monsters by sending them from your hand or the field to the Graveyard. The Ritual Spell Card will list the required amount to Tribute. After sending the Tributed monsters to the Graveyard, play the Ritual Monster Card in your Main Monster Zone in either face-up Attack or Defense Position. Finally, place the Ritual Spell Card in the Graveyard."
+			]
+		},
+		"Summoning Monster Cards": {
+			"important": true,
+			"notes": [
+				"There are several ways to play monsters onto the field. These ways can be categorized into 2 groups: actions that can be done only once per turn, and actions that can be done multiple times per turn.",
+				"Normal Summon once per turn. This is the most common way to Summon a monster. Simply play a Monster Card from your hand onto the field in face-up Attack Position. All Normal Monsters, and most Effect Monsters (unless they have a specific restriction), can be Summoned in this way.",
+				"Normal Set - once per turn: To play a Monster Card from your hand in face-down Defense Position is called a Normal Set. A monster Normal Set on the field is NOT considered Summoned. It has been Normal Set, and can be Summoned with a Flip Summon or flipped face-up by an attack or card effect. Remember, you can only Normal Summon OR Normal Set (Normal Summon/Set, in short), once per turn, so if you Normal Set a monster you cannot also Normal Summon a monster that turn.",
+				"Tribute Summon - once per turn: For monsters that are Level 5 or higher, you must Tribute at least 1 monster you control before the Normal Summon/Set. This is called a Tribute Summon. Monsters that are Level 5 or 6 require 1 Tribute and Monsters that are Level 7 or higher require 2 Tributes. If you Tribute Summon in face-down Defense Position, it is called a Tribute Set. A monster Tribute Set on the field is NOT considered Summoned.",
+				"Flip Summon - You can do as many of these during a turn as you want. You can change a face-down Defense Position monster into face-up Attack Position, without using a card effect. This is called a Flip Summon. When you Flip Summon, you cannot change the monster to face-up Defense Position, only to face-up Attack Position. A Monster Card cannot be Flip Summoned in the same turn that it was Set onto the field. You cannot use most monsters’ effects until they are face-up.",
+				"Special Summon: You can do as many of these during a turn as you want. Some monsters can be played onto the field without being Normal Summoned or Set. This is called a Special Summon. Pendulum Summons, Xyz Summons, Synchro Summons, Fusion Summons and Ritual Summons are all Special Summons. Some Effect Monsters also have specific conditions that allow you to Special Summon them. Unless otherwise specified, a Special Summoned monster is played onto the field in your choice of face-up Attack Position or face-up Defense Position.",
+				"Special Summon with a Card’s Effect: You can do as many of these during a turn as you want. Monsters can also be Special Summoned onto the field through the effect of another card. This is different from “Special Summon Monsters.” You cannot use a card effect to Special Summon those monsters from your hand, Deck, or the Graveyard unless it was properly Special Summoned first. For example, if a Synchro Monster is sent from your Extra Deck to the Graveyard without being Synchro Summoned, you cannot use a Spell Card to Special Summon it from the Graveyard, because Synchro Monsters have to be properly Special Summoned first, before they can be Special Summoned by another card’s effect."
+			]
+		},
+		"Turn Structure ": { "": [" "] },
+
+		"spellCards": {
+			"notes": "Spell Cards can normally be activated only during your Main Phase, and help you out with different effects. Spell Cards have many powerful effects, like destroying other cards or strengthening monsters. Save these cards in your hand until you can get the best results out of them.",
+			"ritualSpellCards": "These Spell Cards are used to perform Ritual Summons. Use these cards in the same way as you would use Normal Spell Cards.",
+			"continuousSpellCards": "These cards remain on the field once they are activated, and their effect continues while the card stays face-up on the field. By using Continuous Spell Cards, you can create lasting positive effects with a single card, which is great but there’s the chance that the opponent will remove it from the field before you benefit from the effect.",
+			"equipSpellCards": "These cards give an extra effect to 1 face-up monster of your choice (either your own or your opponent’s, depending on the card). They remain on the field after they are activated. The Equip Spell Card affects only 1 monster (called the equipped monster), but still occupies one of your Spell & Trap Zones. If possible, place it in the zone directly behind the equipped monster to help you remember. If the equipped monster is destroyed, flipped face-down, or removed from the field, its Equip Cards are destroyed.",
+			"fieldSpellCards": "These cards go in your Field Zone and stay there. Each player can have 1 Field Spell Card on their own side of the field. To use another Field Spell, send your previous one to the Graveyard. Many Field Spell effects apply to BOTH players. These cards may be placed face-down in the Field Zone, but are not active until flipped face-up.",
+			"quickPlaySpellCards": "These are special Spell Cards that can be activated during any Phase of your turn, not just your Main Phase. You can also activate them during your opponent’s turn if you Set the card face-down first, but then you cannot activate the card in the same turn you Set it."
+		},
+		"trapCards": {
+			"notes": "Trap Cards will help you out with different effects, just like Spell Cards. The big difference between them is that you can activate Trap Cards during your opponent’s turn. Many Spell Cards have effects useful for offense, but Trap Cards have the ability to surprise the opponent by disrupting their attacks and strategies.",
+			"normalTrapCards": "Before you can activate a Trap Card, you must Set it on the field first. You cannot activate a Trap in the same turn that you Set it, but you can activate it at any time after that—starting from the beginning of the next turn. Normal Trap Cards have single-use effects and once their effects are resolved, they will be sent to the Graveyard.",
+			"continuousTrapCards": "Just like Continuous Spell Cards, Continuous Trap Cards remain on the field once they are activated and their effects continue while they are face-up on the field. Some Continuous Trap Cards have abilities similar to the Ignition Effects or Trigger Effects that can be found on Effect Monster Cards.",
+			"counterTrapCards": "These Trap Cards are normally activated in response to the activation of other cards, and may have abilities like negating the effects of those cards."
+		},
+
+		"turnStructure": {
+			"notes": [
+				"A Duel progresses in a series of turns which are divided into phases. "
+			],
+			"Draw Phase": [" "],
+			"Standby Phase": [" "],
+			"Main Phase 1": [" "],
+			"Battle Phase": [" "],
+			"Main Phase 2": [" "],
+			"End Phase": [" "]
+		},
+		"damageStepRules": {
+			"notes": [
+				"During the Damage Step, you can only activate Counter Trap Cards, or cards with effects that directly change a monster’s ATK or DEF. Also, these cards can only be activated up until the start of damage calculation. Limitations on Activating Cards If you attack a face-down Defense Position monster, flip the card to face-up Defense Position in the Damage Step. Now you can see the monster’s DEF and then calculate damage. Attacking a Face-Down Card When an attacked monster is flipped face-up, any Flip effects are activated and resolved after damage calculation. If you need to select a monster for the Flip effect to target, you cannot target a monster that has already been destroyed during damage calculation. Activation of a Flip Effect - When an attacked monster is flipped face-up, any Flip effects are activated and resolved after damage calculation. If you need to select a monster for the Flip effect to target, you cannot target a monster that has already been destroyed during damage calculation."
+			],
+			"determiningDamage": [
+				"You calculate battle damage based on the battle position of the monster you are attacking. If you attack an Attack Position monster, compare ATK vs. ATK. If you attack a Defense Position monster, compare your monster’s ATK vs. the attacked monster’s DEF."
+			]
+		},
+		"chainsAndSpellSpeed": {
+			"whatIsAChain": [
+				"Chains are a way to order the resolution of multiple card effects. They are used when the effects of more than 1 card are activated at once, or when a player wants to use an effect after a card has been played, but BEFORE that card has an effect on the game. If a card’s effect is activated, the opponent is always given a chance to respond with a card effect of their own, creating a Chain. If your opponent responds with an effect, then you can choose to respond and add another effect to the Chain. If your opponent does not respond, you may activate a second effect and create a Chain to your own card’s activation. Both players continue to add effects to the Chain until they both wish to add nothing else, then you resolve the outcome in reverse order – starting with the last card that was activated. You must always be careful not to resolve the effects of your cards before asking your opponent if they wish to make a Chain."
+			],
+			"spellSpeed": [
+				"Every type of card effect has a Spell Speed between 1 and 3. If you want to respond to a card effect in a Chain, you have to use an effect with Spell Speed 2 or higher, and it cannot have a lower Spell Speed than the effect you are responding to."
+			],
+			"howAChainWorks": [],
+			"turnPlayersPriority": [
+				"The turn player always starts with Priority, or the choice to activate a card first, in each phase or step of their turn. As long as the turn player has Priority, the opponent cannot activate cards or effects, except for effects that activate automatically, like Trigger or Flip effects."
+			]
+		},
+
+		"Forbidden & Limited Cards ": {
+			"notes": {
+				"intro": "Normally, your Deck (including Extra Deck and Side Deck) can contain up to 3 copies of a card that has the same name. However, certain cards have specific quantity restrictions that further limit the number that can be included in a Deck.",
+				"restrictionTypes": "There are 3 types of restrictions: Limited cards are restricted to 1 copy in a Deck, while Semi-Limited cards are restricted to 2 copies in a Deck. Forbidden cards are not allowed to be included at all.",
+				"updates": "The list of Forbidden and Limited cards is updated regularly and is posted on the Yu-Gi-Oh! TCG Official Website.",
+				"tournamentInfo": "This list is applied to official tournaments so please check it before participating.",
+				"officialWebsite": "www.yugioh-card.com",
+				"effectiveDate": "Effective from Sep 25, 2023",
+				"rules": [
+					"Cards that are 'Forbidden' cannot be used in your Main Deck, Extra Deck, or Side Deck.",
+					"You can only have 1 copy maximum of a 'Limited' card in your Main Deck, Extra Deck, and Side Deck combined.",
+					"You can only have 2 copies maximum of a 'Semi-limited' card in your Main Deck, Extra Deck, and Side Deck combined."
+				]
+			},
+			"banlist": [
+				{
+					"type": "Monster/Effect",
+					"name": "ARCHNEMESES PROTOS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "ARTIFACT SCYTHE",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "BARRIER STATUE OF THE STORMWINDS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "BLACKWING – GOFU THE VAGUE SHADOW",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "BLOCK DRAGON",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "CYBER-STEIN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "DANDYLION",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "DJINN RELEASER OF RITUALS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "ECLIPSE WYVERN",
+					"banState": "Forbidden"
+				},
+				{ "type": "Monster/Effect", "name": "EVA", "banState": "Forbidden" },
+				{
+					"type": "Monster/Effect",
+					"name": "FAIRY TAIL – SNOW",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "FIBER JAR",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "FISHBORG BLASTER",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "GLOW-UP BULB",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "GRINDER GOLEM",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "LEVEL EATER",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MAGICAL SCIENTIST",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MAJESPECTER UNICORN – KIRIN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MASTER PEACE, THE TRUE DRACOSLAYING KING",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MAXX \"C\"",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MIND MASTER",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "ORCUST HARP HORROR",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "PERFORMAGE PLUSHFIRE",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "PHOENIXIAN CLUSTER AMARYLLIS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "REDOX, DRAGON RULER OF BOULDERS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "RONINTOADIN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "SPYRAL MASTER PLAN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "THE TYRANT NEPTUNE",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "TIDAL, DRAGON RULER OF WATERFALLS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "VICTORY DRAGON",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Fusion",
+					"name": "ELDER ENTITY NORDEN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Fusion",
+					"name": "SUPREME KING DRAGON STARVING VENOM",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Fusion",
+					"name": "TEARLAMENTS KITKALLOS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Fusion",
+					"name": "THUNDER DRAGON COLOSSUS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "CRYSTRON HALQIFIBRAX",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "CURIOUS, THE LIGHTSWORN DOMINION",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "GUARDRAGON AGARPAIN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "GUARDRAGON ELPY",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "HEAVYMETALFOES ELECTRUMITE",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "KNIGHTMARE GOBLIN",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "KNIGHTMARE MERMAID",
+					"banState": "Forbidden"
+				},
+				{ "type": "Monster/Link", "name": "LINKROSS", "banState": "Forbidden" },
+				{
+					"type": "Monster/Link",
+					"name": "MECHA PHANTOM BEAST AURORADON",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "PRANK-KIDS MEOW-MEOW-MU",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "PREDAPLANT VERTE ANACONDA",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "SIMORGH, BIRD OF SOVEREIGNTY",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "SPRIGHT ELF",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "SUMMON SORCERESS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "SUPERHEAVY SAMURAI SCARECROW",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "TOPOLOGIC GUMBLAR DRAGON",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "UNION CARRIER",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "CHAOS RULER, THE CHAOTIC MAGICAL DRAGON",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "IB THE WORLD CHALICE JUSTICIAR",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "TRISHULA, DRAGON OF THE ICE BARRIER",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "TUNER'S HIGH",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Spell",
+					"name": "BRILLIANT FUSION",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Spell",
+					"name": "BUTTERFLY DAGGER – ELMA",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Spell",
+					"name": "CARD OF SAFE RETURN",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "CHICKEN GAME", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "COLD WAVE", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "CONFISCATION", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "DELINQUENT DUO", "banState": "Forbidden" },
+				{
+					"type": "Spell",
+					"name": "DIMENSION FUSION",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "GIANT TRUNADE", "banState": "Forbidden" },
+				{
+					"type": "Spell",
+					"name": "GRACEFUL CHARITY",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "HEAVY STORM", "banState": "Forbidden" },
+				{
+					"type": "Spell",
+					"name": "KAISER COLOSSEUM",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "LAST WILL", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "MASS DRIVER", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "METAMORPHOSIS", "banState": "Forbidden" },
+				{
+					"type": "Spell",
+					"name": "MIRAGE OF NIGHTMARE",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "MYSTIC MINE", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "PAINFUL CHOICE", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "POT OF GREED", "banState": "Forbidden" },
+				{
+					"type": "Spell",
+					"name": "PREMATURE BURIAL",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Spell",
+					"name": "SMOKE GRENADE OF THE THIEF",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "SNATCH STEAL", "banState": "Forbidden" },
+				{ "type": "Spell", "name": "SOUL CHARGE", "banState": "Forbidden" },
+				{
+					"type": "Spell",
+					"name": "THAT GRASS LOOKS GREENER",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Spell",
+					"name": "THE FORCEFUL SENTRY",
+					"banState": "Forbidden"
+				},
+				{ "type": "Spell", "name": "ZOODIAC BARRAGE", "banState": "Forbidden" },
+				{
+					"type": "Trap",
+					"name": "APPOINTER OF THE RED LOTUS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Trap",
+					"name": "BRANDED EXPULSION",
+					"banState": "Forbidden"
+				},
+				{ "type": "Trap", "name": "IMPERIAL ORDER", "banState": "Forbidden" },
+				{ "type": "Trap", "name": "LAST TURN", "banState": "Forbidden" },
+				{ "type": "Trap", "name": "RED REBOOT", "banState": "Forbidden" },
+				{
+					"type": "Trap",
+					"name": "RETURN FROM THE DIFFERENT DIMENSION",
+					"banState": "Forbidden"
+				},
+				{ "type": "Trap", "name": "ROYAL OPPRESSION", "banState": "Forbidden" },
+				{
+					"type": "Trap",
+					"name": "SELF-DESTRUCT BUTTON",
+					"banState": "Forbidden"
+				},
+				{ "type": "Trap", "name": "SIXTH SENSE", "banState": "Forbidden" },
+				{ "type": "Trap", "name": "TRAP DUSTSHOOT", "banState": "Forbidden" },
+				{
+					"type": "Trap",
+					"name": "ULTIMATE OFFERING",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Trap",
+					"name": "VANITY’S EMPTINESS",
+					"banState": "Forbidden"
+				},
+				{
+					"type": "Monster",
+					"name": "LEFT ARM OF THE FORBIDDEN ONE",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster",
+					"name": "LEFT LEG OF THE FORBIDDEN ONE",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster",
+					"name": "RIGHT ARM OF THE FORBIDDEN ONE",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster",
+					"name": "RIGHT LEG OF THE FORBIDDEN ONE",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "AGIDO THE ANCIENT SENTINEL",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "ARMAGEDDON KNIGHT",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "ASTROGRAPH SORCERER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "BLACK DRAGON COLLAPSERPENT",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "BLASTER, DRAGON RULER OF INFERNOS",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "BYSTIAL MAGNAMHUT",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "CYBER JAR",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "DANGER!? JACKALOPE?",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "DANGER!? TSUCHINOKO?",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "DARK GREPHER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "DINOWRESTLER PANKRATOPS",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "EXODIA THE FORBIDDEN ONE",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "INFERNITY ARCHFIEND",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "KELBEK THE ANCIENT VANGUARD",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "KELDO THE SACRED PROTECTOR",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "LUNALIGHT TIGER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MATHMECH CIRCULAR",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MISCELLANEOUSAURUS",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MORPHING JAR",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "MUDORA THE SWORD ORACLE",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "PERFORMAPAL MONKEYBOARD",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "PHANTOM SKYBLASTER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "PSY-FRAMEGEAR GAMMA",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "RED ROSE DRAGON",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "SPEEDROID TERRORTOP",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "SUBSTITOAD",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "TEARLAMENTS HAVNIS",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "TEARLAMENTS MERRLI",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "TEARLAMENTS SCHEIREN",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "TEMPEST, DRAGON RULER OF STORMS",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "WHITE DRAGON WYVERBURSTER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "ZOODIAC RATPIER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Fusion",
+					"name": "GEM-KNIGHT MASTER DIAMOND",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Link",
+					"name": "STRIKER DRAGON",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "ANCIENT FAIRY DRAGON",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "DENGLONG, FIRST OF THE YANG ZING",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "PSY-FRAMELORD OMEGA",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Synchro",
+					"name": "T.G. HYPER LIBRARIAN",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Xyz",
+					"name": "BEATRICE, LADY OF THE ETERNAL",
+					"banState": "Limited"
+				},
+				{
+					"type": "Monster/Xyz",
+					"name": "DAIGUSTO EMERAL",
+					"banState": "Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "CALLED BY THE GRAVE",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "CARD DESTRUCTION", "banState": "Limited" },
+
+				{ "type": "Spell", "name": "CARD OF DEMISE", "banState": "Limited" },
+				{ "type": "Spell", "name": "CHAIN STRIKE", "banState": "Limited" },
+				{ "type": "Spell", "name": "CHANGE OF HEART", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "CHAOS SPACE",
+					"banState": "Limited",
+					"new": true
+				},
+				{
+					"type": "Spell",
+					"name": "DIVINE WIND OF MIST VALLEY",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "DRAGONIC DIAGRAM", "banState": "Limited" },
+				{ "type": "Spell", "name": "FINAL COUNTDOWN", "banState": "Limited" },
+				{ "type": "Spell", "name": "FOOLISH BURIAL", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "GATEWAY OF THE SIX",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "GOLD SARCOPHAGUS", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "HARPIE’S FEATHER DUSTER",
+					"banState": "Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "INFERNITY LAUNCHER",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "INSTANT FUSION", "banState": "Limited" },
+				{ "type": "Spell", "name": "INTO THE VOID", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "MAGICAL MID-BREAKER FIELD",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "MIND CONTROL", "banState": "Limited" },
+				{ "type": "Spell", "name": "MONSTER GATE", "banState": "Limited" },
+				{ "type": "Spell", "name": "MONSTER REBORN", "banState": "Limited" },
+				{ "type": "Spell", "name": "ONE DAY OF PEACE", "banState": "Limited" },
+				{ "type": "Spell", "name": "ONE FOR ONE", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "PURRELY DELICIOUS MEMORY",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "REASONING", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "REINFORCEMENT OF THE ARMY",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "SEKKA’S LIGHT", "banState": "Limited" },
+				{ "type": "Spell", "name": "SET ROTATION", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "SKY STRIKER MECHA – HORNET DRONES",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "SLASH DRAW", "banState": "Limited" },
+				{
+					"type": "Spell",
+					"name": "SPELLBOOK OF JUDGMENT",
+					"banState": "Limited"
+				},
+				{ "type": "Spell", "name": "TERRAFORMING", "banState": "Limited" },
+				{ "type": "Spell", "name": "UPSTART GOBLIN", "banState": "Limited" },
+				{ "type": "Trap", "name": "MAGICAL EXPLOSION", "banState": "Limited" },
+				{
+					"type": "Trap",
+					"name": "NATURIA SACRED TREE",
+					"banState": "Limited"
+				},
+				{ "type": "Trap", "name": "TIME SEAL", "banState": "Limited" },
+				{
+					"type": "Monster/Effect",
+					"name": "DESTINY HERO – MALICIOUS",
+					"banState": "Semi-Limited"
+				},
+				{
+					"type": "Monster/Effect",
+					"name": "KASHTIRA UNICORN",
+					"banState": "Semi-Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "LIGHTNING STORM",
+					"banState": "Semi-Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "POT OF DESIRES",
+					"banState": "Semi-Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "RUNICK FOUNTAIN",
+					"banState": "Semi-Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "SKY STRIKER MOBILIZE – ENGAGE!",
+					"banState": "Semi-Limited"
+				},
+				{
+					"type": "Spell",
+					"name": "SPRIGHT STARTER",
+					"banState": "Semi-Limited"
+				}
+			]
+		},
+
+		"MonsterTokens": {
+			"notes": [
+				"Monster Tokens are monsters that appear on the field as the result of a card’s effect. They are not included in the Deck, and cannot be sent anywhere other than the field, such as the hand or Graveyard.",
+				"When a Token is destroyed or returned to the hand or Deck, they are simply removed from the field instead.",
+				"You can use official Token cards or use coins, card sleeves, or any similar marker as Monster Tokens and play them in Monster Zones.",
+				"Each Monster Token takes up 1 of your 5 Monster Zones. Their battle position is always either face-up Attack Position or face-up Defense Position.",
+				"Tokens cannot be used as an Xyz Material. Tokens on the field are treated as Normal Monsters."
+			]
+		},
+		"PublicKnowledge": {
+			"notes": [
+				"The number of cards in a player’s hand and Decks, the cards in their Graveyards, and each player’s current LP are all public knowledge and both players can verify these things at any time.",
+				"If asked, you must answer these things to your opponent truthfully.",
+				"You are allowed to pick up and verify the cards in your opponent’s Graveyard but you must ask their permission first.",
+				"Also, you may not change the order of the cards when verifying their Graveyard."
+			]
+		},
+		"SimultaneousActions": {
+			"notes": [
+				"For cases like 'Each player targets 1 monster,' where both players resolve an effect simultaneously, the turn player resolves the effect first. In this example, after the turn player makes their selection, the other player makes theirs."
+			]
+		},
+		"MultipleCardActivations": {
+			"notes": [
+				"If effects of Spell Speed 1 cards are activated at the same time, they will be resolved in a special Chain.",
+				"This Chain is made starting with the turn player’s mandatory effects.",
+				"Then the opponent continues the Chain with their mandatory effects in any order.",
+				"Afterwards, the turn player adds their optional effects in any order, and finally the opponent adds their optional effects in any order."
+			]
+		},
+		"ZeroATKMonsters": {
+			"notes": [
+				"Monsters with 0 ATK cannot destroy anything by battle.",
+				"If two Attack Position monsters with 0 ATK battle each other, neither monster is destroyed."
+			]
+		},
+		"RulesVsCardEffects": {
+			"notes": [
+				"If there is a discrepancy between the basic rules and a card’s effect, the card effect takes precedence.",
+				"For example, a monster can only attack once per turn, but with a card effect, it is possible to attack twice."
+			]
+		},
+		"Counters": {
+			"notes": [
+				"You may need to place these on cards for some card effects.",
+				"You cannot place counters unless a card effect allows it.",
+				"Cards may have effects that change with the number of counters on them, or require you to remove counters as a cost.",
+				"Some counters have specific names, such as 'Spell Counter' or 'Clock Counter.'",
+				"Other than their names, each individual counter itself does not have any effects."
+			]
+		},
+		"UnchainableActions": {
+			"notes": [
+				"You can only create a Chain by responding to the activation of a card or effect.",
+				"Summoning a monster, Tributing, changing a monster’s battle position and paying costs are not effect activations and therefore you cannot respond to those actions using a Chain."
+			]
+		},
+
+		"Xyz Materials": {
+			"notes": [
+				"Monsters that are used to Xyz Summon are called “Xyz Materials”, and are placed underneath the Xyz Monster, to show that they are attached to it. Monsters that have become Xyz Materials are not treated as cards on the field. When an Xyz Monster leaves the field, all of the Xyz Materials attached to it are sent to the Graveyard. If an Xyz Monster is flipped face-down, or becomes controlled by the opponent, the Xyz Materials are not sent to the Graveyard. They remain attached to the Xyz Monster."
+			]
+		},
+		"Leaves the Field": {
+			"notes": [
+				"Some monsters have effects that activate when they “leave the field”. For example, these effects activate when the monster is sent to the Graveyard, or is banished, or is returned to the hand or Extra Deck. When a monster on the field is shuffled into the Main Deck, or becomes an Xyz Material, it is no longer a card on the field, however its effects that activate when it “leaves the field” will not activate."
+			]
+		},
+		"Glossary": {
+			"Attack Directly": [
+				"Attacking directly means that a monster attacks a player instead of attacking a monster. In this case, the damage to the player will be equal to the monster’s ATK. Some monsters have an effect that allows them to attack directly even if the opponent controls a monster."
+			],
+			"Banished Cards (Previously Remove from Play)": [
+				"Although a card that has been used is normally sent to the Graveyard, a card which is banished is separated from the field instead. You must return your banished cards so you can use them for the next Duel."
+			],
+			"Battle / Battled": [
+				"A monster “battles” (and is “battling”) starting from when it attacks or is attacked. This includes both monsters attacking other monsters, and monsters attacking a player’s Life Points directly. When a card requires a monster to have “battled” (past tense), the attack had to have reached the damage calculation portion of the Damage Step in order for the monster to have “battled”. If the attack stops before damage calculation, the monster did not “battle”. (Note that an attack was still declared, however, so in most cases the attacking monster cannot declare another attack)"
+			],
+			"Battle Damage": [
+				"Battle damage is damage inflicted to a player by an attacking monster, or by a battle between two monsters. This is different from damage from the effect of an Effect Monster, Spell Card or Trap Card."
+			],
+			"Cards on the Field": [
+				"When “cards on the field” is written in card text, it means all the cards on the Game Mat other than the Graveyard, Deck, and Extra Deck"
+			],
+			"Colon (:) and Semi-colon (;)": [
+				"Card effects are sometimes separated with a colon (:) and/or semi-colon (;). Text before the colon gives information on conditions to activate the effect, and timing on when it happens. Text before a semi-colon is what you do when the effect is activated. Text at the end of a sentence, after all colons and semi-colons, is what you do at resolution of the effect."
+			],
+			"Control / Possess": [
+				"Cards you “control” are the cards in your Monster Zone, Spell & Trap Zone, Field Zone, and Pendulum Zone. Cards in your “possession” include all cards you control, plus the cards in your hand, Deck, Extra Deck, Graveyard, your banished cards, cards in the middle of being Summoned to your side of the field, and Xyz Materials attached to monsters you control. If a player takes control of a card from their opponent, move it to the new controller’s side of the field. If sent to the Graveyard, or returned to the hand or Deck, it is always returned to the Graveyard / hand / Deck of the original owner."
+			],
+			"Destroy": [
+				"A card is destroyed when it is sent to the Graveyard due to battle between monsters or by an effect that destroys a card. A card that is returned from the field to the hand or Deck, or, that is sent to the Graveyard as a cost or Tribute, is NOT considered “destroyed.”"
+			],
+			"Discard": [
+				"Discard means to send a card from your hand to the Graveyard. This can happen because of a card effect or by adjusting the number of cards in your hand during the End Phase."
+			],
+			"Effects of Cards": [
+				"The effect of a card is the special ability written on it, like the effect of a Spell, Trap, or Effect Monster. Costs that are needed to activate an ability are not part of the effect. The conditions that describe how to play a “Special Summon Monster” are also not an effect."
+			],
+			"Equip Cards": [
+				"In addition to Equip Spell Cards, sometimes Trap Cards or Monster Cards can become equipped to a monster. Equipped Traps remain Trap Cards, but equipped monsters are considered to be Equip Spells. The term “Equip Card” includes all 3 kinds (standard Equip Spells, equipped Traps, and monsters equipped to other monsters). If a Monster Card is equipped to another monster, it remains equipped to that monster and cannot be moved to a different target, even by card effects that would normally be able to do so. EXCEPTION: Union monsters equipped by their own effects can be moved by appropriate card effects."
+			],
+			"Equipped Monster": [
+				"A monster that is equipped with an Equip Card is an “equipped monster.” When this monster is destroyed or flipped face-down, the equipped card loses its target, and is destroyed and sent to the Graveyard."
+			],
+			"Excavate": [
+				"When a card says to “excavate” cards from your Deck, you reveal those cards to both players. Then, before you do anything else, apply the instructions from the card effect that excavated them. Cards that are being excavated are still treated as being in the Deck until sent elsewhere by the card instructions."
+			],
+			"Original ATK (or DEF)": [
+				"The Original ATK (or DEF) is the number of ATK (or DEF) points printed on the Monster Card. This does not include an increase from an Equip Spell Card or other card effect."
+			],
+
+			"Pay a Cost": [
+				"To pay a cost is an action required by a player in order to activate a card, an effect, or to Summon a monster. Tributing to Tribute Summon a Level 5 monster is an example of a cost. Other common costs are discarding, paying LP, or banishing cards. You have to pay any costs before you declare the activation of the card. Even if the activation of the card is negated, you cannot get a refund of the cost that you have paid."
+			],
+			"piercingBattleDamage": [
+				"Some monsters can inflict piercing battle damage when they attack a Defense Position monster. This means that you inflict damage to your opponent’s LP equal to the difference between the attacking monster’s ATK and the defending monster’s DEF."
+			],
+			"Random": [
+				"When a card effect says to choose a card randomly, there is no official way of doing so, it is fine as long as neither player has a way of knowing which card is being chosen."
+			],
+			"Reveal": [
+				"When an effect says to reveal a card, you show it to both players. You may have to reveal a face-down card, a card from your hand, or from the top of your Deck. Revealing a card does not activate the card or its Flip effect. Normally, revealed cards are returned to their original position after being looked at by both players."
+			],
+			"searchYourDeck": [
+				"Whenever an effect instructs you to add a card from your Deck to your hand, or to Special Summon a monster from your Deck, you can pick up your Deck and search through it for the appropriate card. You must shuffle your Deck after any time you search it and let your opponent shuffle or cut. You cannot activate an effect to search your Deck for a card if there are no cards that meet the requirements in your Deck."
+			],
+			"sendToTheGraveYard": [
+				"A card can be sent to the Graveyard in various ways. Destroying a card, discarding, and Tributing a monster are all actions that send a card to the Graveyard, and will normally activate “When this card is sent to the Graveyard…” Trigger Effects. EXCEPTION: When a banished card is moved to the Graveyard, it is not considered to be “sent to the Graveyard”."
+			],
+			"Set": [
+				"Playing a card face-down is called a Set. For Monster Cards, playing it in face-down Defense Position is called a Set. Any card that is face-down on the field is a Set card."
+			],
+			"Shuffle": [
+				"There is no rule for how to shuffle, but while shuffling you cannot look at the cards you are shuffling, or arrange the cards and then shuffle them."
+			],
+			"Tribute": [
+				"Tributing is sending a monster you control to the Graveyard. You can Tribute a face-up or face-down monster, unless otherwise specified. Tributing a monster is one possible cost for Summoning a monster or activating an effect. A monster sent to the Graveyard by Tributing is not treated as “destroyed”."
+			]
+		}
+	}
+]

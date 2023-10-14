@@ -8,7 +8,7 @@ export default defineConfig({
 	server: {
 		host: true,
 		proxy: {
-			'/api/kaibaChat': 'http://localhost:3000',
+			'/api/kaibaChat': 'http://localhost:3001',
 		},
 		cors: false,
 		https: true,

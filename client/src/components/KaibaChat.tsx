@@ -15,19 +15,8 @@ const KaibaChat: FC<ChatProps> = ({
 	setRequestInProgress,
 }) => {
 	const [chat, setChat] = useState<string[]>([])
-	const [userChat, setUserChat] = useState<string>('')
+	const [userMessage, setuserMessage] = useState<string>('')
 	const [conversationHistory, setConversationHistory] = useState<string[]>([])
-
-	const handleMessageSend = (): void => {
-		if (testIfEmptyString() || testIfAwaitingResponse()) {
-			return
-		}
-		setUserChat('')
-		setRequestInProgress(true)
-		const updatedHistory = [...conversationHistory, userChat]
-		setConversationHistory(updatedHistory)
-		sendConversation(updatedHistory)
-	}
 
 	const testIfAwaitingResponse = (): boolean => {
 		if (requestInProgress) {
@@ -45,7 +34,7 @@ const KaibaChat: FC<ChatProps> = ({
 	}
 
 	const testIfEmptyString = (): boolean => {
-		if (userChat === '') {
+		if (userMessage === '') {
 			toast.warn('No empty words please', {
 				position: 'top-center',
 				closeOnClick: true,
@@ -75,18 +64,40 @@ const KaibaChat: FC<ChatProps> = ({
 			console.error(error)
 		}
 	}
+	const getUpdatedConversationHistory = (): string[] => {
+		const updatedHistory = [...conversationHistory, userMessage]
+		setConversationHistory(updatedHistory)
+		return updatedHistory
+	}
+
+	const handleMessageSend = (): void => {
+		if (testIfEmptyString() || testIfAwaitingResponse()) {
+			return
+		}
+		setuserMessage('')
+		setRequestInProgress(true)
+		sendConversation(getUpdatedConversationHistory())
+	}
 
 	const sendMessageOnEnter = (e: { keyCode: number }) => {
 		if (e.keyCode === 13) {
 			handleMessageSend()
-			setUserChat('')
+			setuserMessage('')
 		}
 	}
 
 	const onchange = (e: ChangeEvent<HTMLTextAreaElement>): void => {
-		setUserChat(`${e.target.value}`)
+		setuserMessage(`${e.target.value}`)
 	}
 
+	const renderChatHistory = () => {
+		return conversationHistory.map((msg, index) => (
+			<div key={nanoid()}>
+				{conversationHistory.length > 0 && <p id="user-text">{msg}</p>}
+				{chat.length > 0 && chat[index] && <p id="bot-text">{chat[index]}</p>}
+			</div>
+		))
+	}
 	return (
 		<>
 			<div>
@@ -96,14 +107,7 @@ const KaibaChat: FC<ChatProps> = ({
 					style={{ maxHeight: '160px' }}
 				/>
 				<h3>Speak Peasant</h3>
-				{chat.map((msg, index) => (
-					<div key={nanoid()}>
-						{conversationHistory[index] !== null ? (
-							<p id="user-text">{conversationHistory[index]}</p>
-						) : null}
-						<p id="bot-text">{msg}</p>
-					</div>
-				))}
+				{renderChatHistory()}
 				{requestInProgress && (
 					<img
 						style={{ display: 'block', width: '80px', margin: '0 auto' }}
@@ -113,7 +117,7 @@ const KaibaChat: FC<ChatProps> = ({
 				<textarea
 					onChange={onchange}
 					onKeyDown={sendMessageOnEnter}
-					value={userChat}
+					value={userMessage}
 					name="textbox"
 					id=""
 					cols={70}
