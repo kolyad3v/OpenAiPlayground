@@ -93,8 +93,8 @@ const KaibaChat: FC<ChatProps> = ({
 	const renderChatHistory = () => {
 		return conversationHistory.map((msg, index) => (
 			<div key={nanoid()}>
-				{conversationHistory.length > 0 && <p id="user-text">{msg}</p>}
-				{chat.length > 0 && chat[index] && <p id="bot-text">{chat[index]}</p>}
+				{<p id="user-text">{msg}</p>}
+				{chat[index] && <p id="bot-text">{chat[index]}</p>}
 			</div>
 		))
 	}
