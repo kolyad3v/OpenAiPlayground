@@ -8,7 +8,6 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 app.use(cors(), express.json())
-app.use('/api/fact', require('./routes/fact'))
 app.use('/api/kaibaChat', require('./routes/kaibaChat'))
 // serve static assets in production
 app.use(express.static('client/dist'))

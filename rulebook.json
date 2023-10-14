@@ -1,0 +1,509 @@
+[{
+
+    "deck": {
+
+
+        "rules": [
+
+            "The Deck must be 40 to 60 cards.",
+
+            "You can only have up to 3 copies of the same card in your Deck, Extra Deck and Side Deck combined."
+
+        ],
+
+        "Notes": [
+
+            "Also, some cards are Forbidden, Limited or Semi-Limited in official tournaments. (See page 45 for details.)",
+
+            "Try to keep your Deck close to the 40-card minimum. Having a Deck with too many cards makes it hard to draw your best cards when you need them.",
+
+            "This Deck is called your Main Deck."
+
+        ]
+
+    }, 
+    "extra deck": {
+
+        "rules": [
+
+           "You can have up to 15 cards in the Extra Deck. The Extra Deck can contain Xyz Monsters, Synchro Monsters and Fusion Monsters, in any combination. These cards are not counted towards the 40-card minimum limit of your Main Deck"]
+    }, 
+    "side deck": {
+
+     
+
+        "rules": ["This is a separate Deck of cards you can use to change your Deck
+        during a Match. After each Duel in a Match, you can swap any card
+        from your Side Deck with a card from your Deck and/or Extra Deck to
+        customize your strategy against your opponent. The number of cards in
+        your Side Decks must not exceed 15. The number of cards in your Side
+        Deck before and after you swap any cards must be exactly the same."
+           
+        ]
+
+     
+
+    }, 
+    " additional items ": {
+
+        " Coin": "Some cards require a coin toss. If you
+        play with these, have a coin ready to
+        flip.",
+        "Dice": "just like the coin, there are some
+        cards that need a die roll. If you play
+        with these, have a standard die ready
+        with numbers 1 through 6.",
+
+        "Counters": [" Some cards will require markers
+        (called counters) to keep track of
+        things like the number of turns, or a
+        card’s power level. You can use small
+        objects like glass beads, paper clips,
+        or pennies for the counters, which are
+        then placed on these face-up cards."],
+
+        "Monster Tokens": [" Tokens are used to represent
+        monsters that can be created by card
+        effects. Any object used for a Token
+        needs to have two distinct ways to
+        place it that can clearly indicate the
+        monster’s battle position. "],
+        "Calculator": ["LP changes quickly during a Duel. It’s
+        smart to use a calculator to keep track
+        of your LP. During important Duels,
+        you should track your LP on paper as
+        well to be extra-careful. "],
+        "Card Sleeves": ["Plastic sleeves can prevent your cards
+        from getting bent or scratched. If you
+        use card sleeves, they all have to be
+        the same so your cards aren’t marked"],
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+, 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
+    }
+    , 
+    " ": {
+
+        
+
+        "": [" "],
+
+     
+
