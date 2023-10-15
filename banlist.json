@@ -1,0 +1,732 @@
+{
+	"Forbidden & Limited Cards ": {
+		"notes": {
+			"intro": "Normally, your Deck (including Extra Deck and Side Deck) can contain up to 3 copies of a card that has the same name. However, certain cards have specific quantity restrictions that further limit the number that can be included in a Deck.",
+			"restrictionTypes": "There are 3 types of restrictions: Limited cards are restricted to 1 copy in a Deck, while Semi-Limited cards are restricted to 2 copies in a Deck. Forbidden cards are not allowed to be included at all.",
+			"updates": "The list of Forbidden and Limited cards is updated regularly and is posted on the Yu-Gi-Oh! TCG Official Website.",
+			"tournamentInfo": "This list is applied to official tournaments so please check it before participating.",
+			"officialWebsite": "www.yugioh-card.com",
+			"effectiveDate": "Effective from Sep 25, 2023",
+			"rules": [
+				"Cards that are 'Forbidden' cannot be used in your Main Deck, Extra Deck, or Side Deck.",
+				"You can only have 1 copy maximum of a 'Limited' card in your Main Deck, Extra Deck, and Side Deck combined.",
+				"You can only have 2 copies maximum of a 'Semi-limited' card in your Main Deck, Extra Deck, and Side Deck combined."
+			]
+		}
+	},
+	"banlist": [
+		{
+			"type": "Monster/Effect",
+			"name": "ARCHNEMESES PROTOS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "ARTIFACT SCYTHE",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "BARRIER STATUE OF THE STORMWINDS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "BLACKWING – GOFU THE VAGUE SHADOW",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "BLOCK DRAGON",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "CYBER-STEIN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "DANDYLION",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "DJINN RELEASER OF RITUALS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "ECLIPSE WYVERN",
+			"banState": "Forbidden"
+		},
+		{ "type": "Monster/Effect", "name": "EVA", "banState": "Forbidden" },
+		{
+			"type": "Monster/Effect",
+			"name": "FAIRY TAIL – SNOW",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "FIBER JAR",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "FISHBORG BLASTER",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "GLOW-UP BULB",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "GRINDER GOLEM",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "LEVEL EATER",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MAGICAL SCIENTIST",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MAJESPECTER UNICORN – KIRIN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MASTER PEACE, THE TRUE DRACOSLAYING KING",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MAXX \"C\"",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MIND MASTER",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "ORCUST HARP HORROR",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "PERFORMAGE PLUSHFIRE",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "PHOENIXIAN CLUSTER AMARYLLIS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "REDOX, DRAGON RULER OF BOULDERS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "RONINTOADIN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "SPYRAL MASTER PLAN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "THE TYRANT NEPTUNE",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "TIDAL, DRAGON RULER OF WATERFALLS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "VICTORY DRAGON",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Fusion",
+			"name": "ELDER ENTITY NORDEN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Fusion",
+			"name": "SUPREME KING DRAGON STARVING VENOM",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Fusion",
+			"name": "TEARLAMENTS KITKALLOS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Fusion",
+			"name": "THUNDER DRAGON COLOSSUS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "CRYSTRON HALQIFIBRAX",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "CURIOUS, THE LIGHTSWORN DOMINION",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "GUARDRAGON AGARPAIN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "GUARDRAGON ELPY",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "HEAVYMETALFOES ELECTRUMITE",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "KNIGHTMARE GOBLIN",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "KNIGHTMARE MERMAID",
+			"banState": "Forbidden"
+		},
+		{ "type": "Monster/Link", "name": "LINKROSS", "banState": "Forbidden" },
+		{
+			"type": "Monster/Link",
+			"name": "MECHA PHANTOM BEAST AURORADON",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "PRANK-KIDS MEOW-MEOW-MU",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "PREDAPLANT VERTE ANACONDA",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "SIMORGH, BIRD OF SOVEREIGNTY",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "SPRIGHT ELF",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "SUMMON SORCERESS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "SUPERHEAVY SAMURAI SCARECROW",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "TOPOLOGIC GUMBLAR DRAGON",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "UNION CARRIER",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "CHAOS RULER, THE CHAOTIC MAGICAL DRAGON",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "IB THE WORLD CHALICE JUSTICIAR",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "TRISHULA, DRAGON OF THE ICE BARRIER",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "TUNER'S HIGH",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Spell",
+			"name": "BRILLIANT FUSION",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Spell",
+			"name": "BUTTERFLY DAGGER – ELMA",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Spell",
+			"name": "CARD OF SAFE RETURN",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "CHICKEN GAME", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "COLD WAVE", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "CONFISCATION", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "DELINQUENT DUO", "banState": "Forbidden" },
+		{
+			"type": "Spell",
+			"name": "DIMENSION FUSION",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "GIANT TRUNADE", "banState": "Forbidden" },
+		{
+			"type": "Spell",
+			"name": "GRACEFUL CHARITY",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "HEAVY STORM", "banState": "Forbidden" },
+		{
+			"type": "Spell",
+			"name": "KAISER COLOSSEUM",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "LAST WILL", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "MASS DRIVER", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "METAMORPHOSIS", "banState": "Forbidden" },
+		{
+			"type": "Spell",
+			"name": "MIRAGE OF NIGHTMARE",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "MYSTIC MINE", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "PAINFUL CHOICE", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "POT OF GREED", "banState": "Forbidden" },
+		{
+			"type": "Spell",
+			"name": "PREMATURE BURIAL",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Spell",
+			"name": "SMOKE GRENADE OF THE THIEF",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "SNATCH STEAL", "banState": "Forbidden" },
+		{ "type": "Spell", "name": "SOUL CHARGE", "banState": "Forbidden" },
+		{
+			"type": "Spell",
+			"name": "THAT GRASS LOOKS GREENER",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Spell",
+			"name": "THE FORCEFUL SENTRY",
+			"banState": "Forbidden"
+		},
+		{ "type": "Spell", "name": "ZOODIAC BARRAGE", "banState": "Forbidden" },
+		{
+			"type": "Trap",
+			"name": "APPOINTER OF THE RED LOTUS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Trap",
+			"name": "BRANDED EXPULSION",
+			"banState": "Forbidden"
+		},
+		{ "type": "Trap", "name": "IMPERIAL ORDER", "banState": "Forbidden" },
+		{ "type": "Trap", "name": "LAST TURN", "banState": "Forbidden" },
+		{ "type": "Trap", "name": "RED REBOOT", "banState": "Forbidden" },
+		{
+			"type": "Trap",
+			"name": "RETURN FROM THE DIFFERENT DIMENSION",
+			"banState": "Forbidden"
+		},
+		{ "type": "Trap", "name": "ROYAL OPPRESSION", "banState": "Forbidden" },
+		{
+			"type": "Trap",
+			"name": "SELF-DESTRUCT BUTTON",
+			"banState": "Forbidden"
+		},
+		{ "type": "Trap", "name": "SIXTH SENSE", "banState": "Forbidden" },
+		{ "type": "Trap", "name": "TRAP DUSTSHOOT", "banState": "Forbidden" },
+		{
+			"type": "Trap",
+			"name": "ULTIMATE OFFERING",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Trap",
+			"name": "VANITY’S EMPTINESS",
+			"banState": "Forbidden"
+		},
+		{
+			"type": "Monster",
+			"name": "LEFT ARM OF THE FORBIDDEN ONE",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster",
+			"name": "LEFT LEG OF THE FORBIDDEN ONE",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster",
+			"name": "RIGHT ARM OF THE FORBIDDEN ONE",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster",
+			"name": "RIGHT LEG OF THE FORBIDDEN ONE",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "AGIDO THE ANCIENT SENTINEL",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "ARMAGEDDON KNIGHT",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "ASTROGRAPH SORCERER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "BLACK DRAGON COLLAPSERPENT",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "BLASTER, DRAGON RULER OF INFERNOS",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "BYSTIAL MAGNAMHUT",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "CYBER JAR",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "DANGER!? JACKALOPE?",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "DANGER!? TSUCHINOKO?",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "DARK GREPHER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "DINOWRESTLER PANKRATOPS",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "EXODIA THE FORBIDDEN ONE",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "INFERNITY ARCHFIEND",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "KELBEK THE ANCIENT VANGUARD",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "KELDO THE SACRED PROTECTOR",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "LUNALIGHT TIGER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MATHMECH CIRCULAR",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MISCELLANEOUSAURUS",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MORPHING JAR",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "MUDORA THE SWORD ORACLE",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "PERFORMAPAL MONKEYBOARD",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "PHANTOM SKYBLASTER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "PSY-FRAMEGEAR GAMMA",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "RED ROSE DRAGON",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "SPEEDROID TERRORTOP",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "SUBSTITOAD",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "TEARLAMENTS HAVNIS",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "TEARLAMENTS MERRLI",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "TEARLAMENTS SCHEIREN",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "TEMPEST, DRAGON RULER OF STORMS",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "WHITE DRAGON WYVERBURSTER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "ZOODIAC RATPIER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Fusion",
+			"name": "GEM-KNIGHT MASTER DIAMOND",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Link",
+			"name": "STRIKER DRAGON",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "ANCIENT FAIRY DRAGON",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "DENGLONG, FIRST OF THE YANG ZING",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "PSY-FRAMELORD OMEGA",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Synchro",
+			"name": "T.G. HYPER LIBRARIAN",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Xyz",
+			"name": "BEATRICE, LADY OF THE ETERNAL",
+			"banState": "Limited"
+		},
+		{
+			"type": "Monster/Xyz",
+			"name": "DAIGUSTO EMERAL",
+			"banState": "Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "CALLED BY THE GRAVE",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "CARD DESTRUCTION", "banState": "Limited" },
+
+		{ "type": "Spell", "name": "CARD OF DEMISE", "banState": "Limited" },
+		{ "type": "Spell", "name": "CHAIN STRIKE", "banState": "Limited" },
+		{ "type": "Spell", "name": "CHANGE OF HEART", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "CHAOS SPACE",
+			"banState": "Limited",
+			"new": true
+		},
+		{
+			"type": "Spell",
+			"name": "DIVINE WIND OF MIST VALLEY",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "DRAGONIC DIAGRAM", "banState": "Limited" },
+		{ "type": "Spell", "name": "FINAL COUNTDOWN", "banState": "Limited" },
+		{ "type": "Spell", "name": "FOOLISH BURIAL", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "GATEWAY OF THE SIX",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "GOLD SARCOPHAGUS", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "HARPIE’S FEATHER DUSTER",
+			"banState": "Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "INFERNITY LAUNCHER",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "INSTANT FUSION", "banState": "Limited" },
+		{ "type": "Spell", "name": "INTO THE VOID", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "MAGICAL MID-BREAKER FIELD",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "MIND CONTROL", "banState": "Limited" },
+		{ "type": "Spell", "name": "MONSTER GATE", "banState": "Limited" },
+		{ "type": "Spell", "name": "MONSTER REBORN", "banState": "Limited" },
+		{ "type": "Spell", "name": "ONE DAY OF PEACE", "banState": "Limited" },
+		{ "type": "Spell", "name": "ONE FOR ONE", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "PURRELY DELICIOUS MEMORY",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "REASONING", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "REINFORCEMENT OF THE ARMY",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "SEKKA’S LIGHT", "banState": "Limited" },
+		{ "type": "Spell", "name": "SET ROTATION", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "SKY STRIKER MECHA – HORNET DRONES",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "SLASH DRAW", "banState": "Limited" },
+		{
+			"type": "Spell",
+			"name": "SPELLBOOK OF JUDGMENT",
+			"banState": "Limited"
+		},
+		{ "type": "Spell", "name": "TERRAFORMING", "banState": "Limited" },
+		{ "type": "Spell", "name": "UPSTART GOBLIN", "banState": "Limited" },
+		{ "type": "Trap", "name": "MAGICAL EXPLOSION", "banState": "Limited" },
+		{
+			"type": "Trap",
+			"name": "NATURIA SACRED TREE",
+			"banState": "Limited"
+		},
+		{ "type": "Trap", "name": "TIME SEAL", "banState": "Limited" },
+		{
+			"type": "Monster/Effect",
+			"name": "DESTINY HERO – MALICIOUS",
+			"banState": "Semi-Limited"
+		},
+		{
+			"type": "Monster/Effect",
+			"name": "KASHTIRA UNICORN",
+			"banState": "Semi-Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "LIGHTNING STORM",
+			"banState": "Semi-Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "POT OF DESIRES",
+			"banState": "Semi-Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "RUNICK FOUNTAIN",
+			"banState": "Semi-Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "SKY STRIKER MOBILIZE – ENGAGE!",
+			"banState": "Semi-Limited"
+		},
+		{
+			"type": "Spell",
+			"name": "SPRIGHT STARTER",
+			"banState": "Semi-Limited"
+		}
+	]
+}

@@ -6,6 +6,7 @@ import {
 	generateYugiohResponse,
 	standardSystemContent,
 	extractMessageHistoryAsGPTObject,
+	getKeysOfRuleBook,
 } from '../utils'
 
 const router = Router()
@@ -15,6 +16,8 @@ const openai = new OpenAI({
 })
 
 router.post('/', async (req: Request, res: Response) => {
+	console.log(getKeysOfRuleBook())
+
 	console.log(req.body)
 	const { messageHistory } = req.body
 	const latestMessage = messageHistory[messageHistory.length - 1]
@@ -57,7 +60,7 @@ router.post('/', async (req: Request, res: Response) => {
 				{
 					name: 'lookup_card',
 					description:
-						' use this function to look up the exact details of a card from the user message, eg blue eyes',
+						'use this function to look up the exact details of a card from the user message',
 					parameters: {
 						type: 'object',
 						properties: {
@@ -75,6 +78,7 @@ router.post('/', async (req: Request, res: Response) => {
 		console.log(completion)
 
 		const responseMessage = completion.choices[0].message
+		console.log(responseMessage)
 
 		if (responseMessage.function_call) {
 			const availableFunctions = {
@@ -110,14 +114,13 @@ router.post('/', async (req: Request, res: Response) => {
 		try {
 			appendToCsv(csvString, csvAnswer)
 		} catch (err) {
-			console.error(err)
+			console.error('Error saving to CSV db', err)
 		}
 		res.json({ message: `${secondResponse.choices[0].message.content}` })
 	} catch (error: any) {
 		if (error.response) {
 			console.error(error.response.status, error.response.data)
 			res.status(error.response.status).json(error.response.data)
-		} else {
 		}
 		console.error(`eroor with api req: ${error.message}`)
 		res

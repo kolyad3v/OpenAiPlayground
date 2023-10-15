@@ -14,3 +14,9 @@ export function lookupCard(cardName: string) {
 	}
 	return 'false' // Return null if the card is not found
 }
+
+export function getKeysOfRuleBook(): string[] {
+	const rawData = fs.readFileSync('rulebook.json', 'utf-8')
+	const rulebook = JSON.parse(rawData)
+	return Object.keys(rulebook)
+}
