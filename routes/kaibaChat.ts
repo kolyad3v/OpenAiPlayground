@@ -1,12 +1,14 @@
 import { Router, Request, Response } from 'express'
 import OpenAI from 'openai'
 import {
-	appendToCsv,
+	storeUserMessageAndAIResponseInCSVdb as storeInCSV,
 	lookupCard,
-	generateYugiohResponse,
-	standardSystemContent,
-	extractMessageHistoryAsGPTObject,
-	getKeysOfRuleBook,
+	isUserMessageEmpty,
+	IMessage,
+	getOpenAiFormattedMessagesArray,
+	addLatestMessageFromUser,
+	lookupRuling,
+	getKeysOfRulebook,
 } from '../utils'
 
 const router = Router()
@@ -16,41 +18,19 @@ const openai = new OpenAI({
 })
 
 router.post('/', async (req: Request, res: Response) => {
-	console.log(getKeysOfRuleBook())
+	console.log('Request Body:', req.body)
+	const { messageHistory: userMessageHistory } = req.body
+	const latestUserMessage = userMessageHistory[userMessageHistory.length - 1]
 
-	console.log(req.body)
-	const { messageHistory } = req.body
-	const latestMessage = messageHistory[messageHistory.length - 1]
-	if (latestMessage.trim().length === 0) {
-		res.status(418).json({
-			error: {
-				message:
-					"Don't waste my time with empty words. I have a company to run. ",
-			},
-		})
+	if (isUserMessageEmpty(latestUserMessage, res)) {
 		return
 	}
+
 	try {
-		const messages: {
-			role: 'system' | 'assistant' | 'user' | 'function'
-			name?: string
-			content: string
-		}[] = [
-			{
-				role: 'system',
-				content: standardSystemContent,
-			},
-		]
-		if (messageHistory.length > 1) {
-			for (let i = 0; i < messageHistory.length - 1; i++) {
-				messages.push(extractMessageHistoryAsGPTObject(messageHistory[i]))
-			}
-		}
-		messages.push({
-			role: 'user',
-			content: generateYugiohResponse(latestMessage),
-		})
-		console.log(messages)
+		const messages: IMessage[] =
+			getOpenAiFormattedMessagesArray(userMessageHistory)
+		addLatestMessageFromUser(messages, latestUserMessage)
+		console.log('User Messages before completions:', messages)
 
 		const completion = await openai.chat.completions.create({
 			messages,
@@ -73,59 +53,90 @@ router.post('/', async (req: Request, res: Response) => {
 						required: ['cardName'],
 					},
 				},
+				{
+					name: 'lookup_ruling',
+					description: `use this function if the user mentions any of the key words from this array ${getKeysOfRulebook()} to get a more accurate definition from the official rulebook I have extracted for you`,
+					parameters: {
+						type: 'object',
+						properties: {
+							topic: {
+								type: 'string',
+								description:
+									'the exact word from the array of key words. This will be exact to match a key to retreive the relavent data',
+							},
+						},
+						required: ['topic'],
+					},
+				},
 			],
 		})
-		console.log(completion)
 
-		const responseMessage = completion.choices[0].message
-		console.log(responseMessage)
+		const firstAiResponse = completion.choices[0].message
+		console.log('firstAiCompletion -->', completion)
+		console.log('firstAiResponse -->', firstAiResponse)
 
-		if (responseMessage.function_call) {
+		if (!firstAiResponse.function_call) {
+			const firstAiResponseContent = firstAiResponse.content
+			storeInCSV(latestUserMessage, firstAiResponseContent as string)
+			res.json({ message: `${firstAiResponse.content}` })
+			return
+		}
+
+		let functionDetailsForCSV: { name: string; argument: string } = {
+			name: '',
+			argument: '',
+		}
+
+		if (firstAiResponse.function_call) {
 			const availableFunctions = {
 				lookup_card: lookupCard,
+				lookup_ruling: lookupRuling,
 			}
-			const functionName = responseMessage.function_call.name
+			const functionName = firstAiResponse.function_call.name
+			functionDetailsForCSV.name = functionName
 			//@ts-ignore
 			const functionToCall = availableFunctions[functionName]
-			const functionArgs = JSON.parse(responseMessage.function_call.arguments)
-			const functionResponse = functionToCall(functionArgs.cardName)
-			messages.push({
-				role: 'assistant',
-				content:
-					'You must call the function I provide to check the effect and details of every card the user includes in their query. ',
-			}) // extend conversation with function response
+			const functionArgs = JSON.parse(firstAiResponse.function_call.arguments)
+			let functionResponse: string
+			if (functionName === 'lookup_card') {
+				functionResponse = functionToCall(functionArgs.cardName)
+			} else if (functionName === 'lookup_ruling') {
+				functionResponse = functionToCall(functionArgs.topic)
+				functionDetailsForCSV.argument = functionArgs.topic
+			} else {
+				throw new Error(`Error in handling function call ${functionName} `)
+			}
 			messages.push({
 				role: 'function',
 				name: functionName,
 				content: functionResponse,
 			}) // extend conversation with function response
 		}
-
-		const secondResponse = await openai.chat.completions.create({
+		console.log('messages after function calls -->', messages)
+		const secondAiResponse = await openai.chat.completions.create({
 			model: 'gpt-3.5-turbo',
 			temperature: 0.1,
 			messages,
 		})
 
-		// Handle Storage of responses
-		const csvString = `"${latestMessage}"\n` // Wrap it in quotes to handle commas in the message
-		const csvAnswer = `"${secondResponse.choices[0].message.content}"\n`
-		// Save it to a file (assuming the file already exists)
+		const secondAiResponseContent = secondAiResponse.choices[0].message.content
 		try {
-			appendToCsv(csvString, csvAnswer)
+			storeInCSV(
+				latestUserMessage,
+				secondAiResponseContent as string,
+				functionDetailsForCSV
+			)
 		} catch (err) {
 			console.error('Error saving to CSV db', err)
 		}
-		res.json({ message: `${secondResponse.choices[0].message.content}` })
+		res.json({ message: `${secondAiResponseContent}` })
 	} catch (error: any) {
 		if (error.response) {
 			console.error(error.response.status, error.response.data)
-			res.status(error.response.status).json(error.response.data)
+			res.status(error.response.status).send(error.response.data)
 		}
 		console.error(`eroor with api req: ${error.message}`)
-		res
-			.status(500)
-			.json({ error: { message: 'error occured during the request' } })
+		res.status(500).send('error occured during the request')
 	}
 })
 

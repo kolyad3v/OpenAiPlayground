@@ -548,3 +548,98 @@ Please note that the prices and availability of the card may vary.""
 test""
 ","""Greetings, duelist! How may I assist you with your Yu-Gi-Oh gameplay inquiries?""
 "
+"""test""
+","""Ah, a test, huh? Very well, let's get down to business. What do you need assistance with in the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Ah, a fellow duelist! How may I assist you in your Yu-Gi-Oh adventures?""
+"
+"""""
+","""Hello! I am the Yu-Gi-Oh trading card game advisor. How can I assist you today?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Ah, a test, huh? Very well, let's get straight to the point. What do you need assistance with in the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""dark magician""
+","""Dark Magician is a Level 7 Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a powerful monster known as the ultimate wizard in terms of attack and defense. Dark Magician belongs to the Dark Magician archetype and has the DARK attribute.
+
+Here is an image of Dark Magician:
+<img src=`https://images.ygoprodeck.com/images/cards/46986414.jpg` alt=`Dark Magician` />
+
+Dark Magician has been released in various sets and rarities. Some notable sets include:
+
+- 2016 Mega-Tins (Ultra Rare)
+- 2017 Mega-Tins (Secret Rare)
+- Duel Power (Ultra Rare)
+- Duelist Pack: Battle City (Super Rare)
+- Legendary Decks II (Common)
+- Maximum Gold (Premium Gold Rare)
+- Speed Duel Starter Decks: Destiny Masters (Common)
+- Structure Deck: Yugi Muto (Common)
+- Yugi's Legendary Decks (Common)
+
+Please note that prices may vary depending on the market.""
+"
+"""NEW FUNCTION ADDED AT THIS POINT ""
+","""Dark Magician is a Level 7 Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a powerful monster known as the ultimate wizard in terms of attack and defense. Dark Magician belongs to the Dark Magician archetype and has the DARK attribute.
+"""deck
+""
+","""Ah, the deck. The heart and soul of any duelist. A deck is a collection of cards that a duelist uses to play the game. It consists of a main deck, an extra deck, and a side deck. The main deck is where you'll find your monster, spell, and trap cards. The extra deck is where you'll keep your fusion, synchro, xyz, and link monsters. And the side deck is where you can store additional cards to swap in and out between duels. It's important to have a well-constructed deck that synergizes with your strategy and playstyle. Remember, a strong deck is the key to victory!""
+"
+"""
+deck""
+","""Ah, the deck. The heart and soul of any duelist. Your deck is where you keep all your cards and build your strategies. It consists of a minimum of 40 cards, but can have more if you prefer. Remember to have a good balance of monster, spell, and trap cards to maximize your chances of victory. And of course, don't forget to include your trusty Dark Magician!""
+"
+"""
+tell me about the extraDeck""
+","""The Extra Deck is a special deck in the Yu-Gi-Oh trading card game that can contain up to 15 cards. It is separate from your Main Deck and consists of Xyz Monsters, Synchro Monsters, and Fusion Monsters. These cards are not counted towards the minimum 40-card limit of your Main Deck. You can have any combination of Xyz Monsters, Synchro Monsters, and Fusion Monsters in your Extra Deck.""
+"
+"""tell me about the extraDeck""
+","""The Extra Deck is a special deck in the Yu-Gi-Oh trading card game that can contain up to 15 cards. It is separate from your Main Deck and consists of Xyz Monsters, Synchro Monsters, and Fusion Monsters. These cards are not counted towards the minimum 40-card limit of your Main Deck. The Extra Deck allows you to summon powerful monsters during the game to gain an advantage over your opponent.""
+"
+"""how many times can I normal set per turn? ""
+","""In a Duel, you can only Normal Set once per turn during your Main Phase 1 or Main Phase 2. This means you can place one monster face-down in Defense Position per turn. However, keep in mind that if you have already Normal Summoned or Set a monster during that turn, you cannot Normal Set another monster.""
+"
+"""tell me about flip summon""
+","""Here is an example of a Flip Summon:
+
+Let's say you have a face-down Defense Position monster on your side of the field. During your Main Phase, you can choose to Flip Summon that monster by changing it to face-up Attack Position. This can be done without using a card effect.
+
+However, please note that you cannot change the monster to face-up Defense Position when performing a Flip Summon. Additionally, a Monster Card cannot be Flip Summoned in the same turn that it was Set onto the field.
+
+It's important to remember that most monsters' effects cannot be used until they are face-up on the field. So, keep that in mind when planning your strategies.
+
+I hope this explanation helps! If you have any more questions, feel free to ask.""
+", lookup_ruling, flipSummon
+"""tell me about flip summoning and turn structures""
+","""Flip Summoning is a gameplay mechanic in the Yu-Gi-Oh trading card game that allows you to change a face-down Defense Position monster into face-up Attack Position. This can be done without using a card effect. However, it's important to note that when you Flip Summon a monster, you cannot change it to face-up Defense Position, only to face-up Attack Position.
+
+There are a few rules to keep in mind when it comes to Flip Summoning. First, a Monster Card cannot be Flip Summoned in the same turn that it was Set onto the field. This means that if you Set a monster face-down during your turn, you will have to wait until your next turn to Flip Summon it.
+
+Additionally, it's important to remember that most monsters' effects cannot be used until they are face-up on the field. This means that if a monster has a Flip effect, you will need to Flip Summon it first in order to activate and resolve its effect.
+
+In terms of turn structure, you can perform as many Flip Summons as you want during your turn, as long as you meet the necessary conditions. However, it's important to follow the proper sequence of the turn structure, which includes the Draw Phase, Standby Phase, Main Phase 1, Battle Phase, Main Phase 2, and End Phase.
+
+I hope this information helps! If you have any more questions about Flip Summoning or any other aspect of the game, feel free to ask.""
+", lookup_ruling, flipSummon

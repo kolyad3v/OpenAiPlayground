@@ -18,7 +18,7 @@ const KaibaChat: FC<ChatProps> = ({
 	const [userMessage, setuserMessage] = useState<string>('')
 	const [conversationHistory, setConversationHistory] = useState<string[]>([])
 
-	const testIfAwaitingResponse = (): boolean => {
+	const isAwaitingResponse = (): boolean => {
 		if (requestInProgress) {
 			toast.warn("I'm working on it!", {
 				position: 'top-center',
@@ -33,7 +33,7 @@ const KaibaChat: FC<ChatProps> = ({
 		return false
 	}
 
-	const testIfEmptyString = (): boolean => {
+	const isEmptyUserMessage = (): boolean => {
 		if (userMessage === '') {
 			toast.warn('No empty words please', {
 				position: 'top-center',
@@ -59,9 +59,10 @@ const KaibaChat: FC<ChatProps> = ({
 			}
 			setChat((chat) => [...chat, res.data.message])
 			setRequestInProgress(false)
-		} catch (error) {
+		} catch (error: any) {
 			setRequestInProgress(false)
-			console.error(error)
+			console.error(error.message)
+			toast.warning(error.response.data)
 		}
 	}
 	const getUpdatedConversationHistory = (): string[] => {
@@ -71,7 +72,7 @@ const KaibaChat: FC<ChatProps> = ({
 	}
 
 	const handleMessageSend = (): void => {
-		if (testIfEmptyString() || testIfAwaitingResponse()) {
+		if (isEmptyUserMessage() || isAwaitingResponse()) {
 			return
 		}
 		setuserMessage('')
