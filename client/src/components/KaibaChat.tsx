@@ -100,8 +100,8 @@ const KaibaChat: FC<ChatProps> = ({
 		))
 	}
 	return (
-		<>
-			<div>
+		<div className="container">
+			<div className="left">
 				<img
 					src="./kaiba.jpg"
 					alt="picture of seto, no.2 duelist"
@@ -115,6 +115,8 @@ const KaibaChat: FC<ChatProps> = ({
 						src="./loading.svg"
 					/>
 				)}
+			</div>
+			<div className="right">
 				<textarea
 					onChange={onchange}
 					onKeyDown={sendMessageOnEnter}
@@ -133,7 +135,7 @@ const KaibaChat: FC<ChatProps> = ({
 				</button>
 			</div>
 			<ToastContainer />
-		</>
+		</div>
 	)
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './styles/App.css'
+
 import KaibaChat from './components/KaibaChat'
 
 function App() {
