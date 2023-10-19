@@ -102,12 +102,6 @@ const KaibaChat: FC<ChatProps> = ({
 	return (
 		<div className="container">
 			<div className="left">
-				<img
-					src="./kaiba.jpg"
-					alt="picture of seto, no.2 duelist"
-					style={{ maxHeight: '160px' }}
-				/>
-				<h3>Speak Peasant</h3>
 				{renderChatHistory()}
 				{requestInProgress && (
 					<img
@@ -117,6 +111,7 @@ const KaibaChat: FC<ChatProps> = ({
 				)}
 			</div>
 			<div className="right">
+				<h3>Speak Peasant</h3>
 				<textarea
 					onChange={onchange}
 					onKeyDown={sendMessageOnEnter}

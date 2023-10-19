@@ -3,10 +3,6 @@
 	line-height: 1.5;
 	font-weight: 400;
 
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #030712;
-
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -55,19 +51,6 @@ button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
-	}
-	button {
-		background-color: #f9f9f9;
-	}
-}
-
 .container {
 	display: flex;
 	width: 100vw;
@@ -78,20 +61,28 @@ button:focus-visible {
 	}
 }
 
+textarea {
+	border-radius: 10px;
+	border: 4px solid #000;
+	background: rgba(217, 217, 217, 0);
+	padding: 16px;
+}
+
 .left {
 	width: 50vw;
 	text-align: center;
 	height: 100vh;
+	background: #f7f7f8;
+	box-shadow: -8px 4px 36px 0px rgba(0, 0, 0, 0.25);
 
 	img {
 		margin-top: 80px;
 	}
 
-	@media screen and ( max-width: 1100px){
+	@media screen and (max-width: 1100px) {
 		margin: 0 auto;
 		max-width: 800px;
 		height: 100%;
-		
 	}
 }
 .right {
@@ -103,11 +94,10 @@ button:focus-visible {
 	align-items: center;
 	height: 100vh;
 
-	@media screen and ( max-width: 1100px){
+	@media screen and (max-width: 1100px) {
 		margin: 0 auto;
 		max-width: 800px;
 		height: 100%;
-
 	}
 }
 
@@ -120,21 +110,27 @@ button:focus-visible {
 }
 
 #bot-text {
+	color: #1a1a1a;
 	max-width: 480px;
 	min-height: 24px;
 	text-align: left;
-	padding: 8px;
+	padding: 24px;
 	border-radius: 8px;
 	margin: 16px auto;
-	background: #373737;
+	border-radius: 15px;
+	background: #d9d9d9;
+	box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
 #user-text {
+	color: #1a1a1a;
 	max-width: 480px;
 	min-height: 24px;
 	text-align: left;
-	padding: 8px;
+	padding: 24px;
 	border-radius: 8px;
 	margin: 16px auto;
-	background: #1c1c1c;
+	border-radius: 15px;
+	background: #d9d9d9;
+	box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.25);
 }

@@ -18,8 +18,8 @@ const openai = new OpenAI({
 })
 
 router.post('/', async (req: Request, res: Response) => {
-	console.log('Request Body:', req.body)
-	const { messageHistory: userMessageHistory } = req.body
+	const { messageHistory: userMessageHistory }: { messageHistory: string[] } =
+		req.body
 	const latestUserMessage = userMessageHistory[userMessageHistory.length - 1]
 
 	if (isUserMessageEmpty(latestUserMessage, res)) {

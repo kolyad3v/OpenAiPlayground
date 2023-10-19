@@ -646,3 +646,15 @@ I hope this information helps! If you have any more questions about Flip Summoni
 """test""
 ","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
 "
+"""good morning dark magician""
+","""Good morning, duelist! The Dark Magician is a powerful Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a Level 7 monster and its attribute is DARK. The Dark Magician is known as the ultimate wizard in terms of attack and defense.
+
+Here is an image of the Dark Magician: <img src=""https://images.ygoprodeck.com/images/cards/46986414.jpg"" alt=""Dark Magician"" />
+
+The Dark Magician has been released in various sets throughout the years, including the 2016 Mega-Tins, 2017 Mega-Tins, Battle of Chaos, and many more. Its rarity ranges from Ultra Rare to Secret Rare.
+
+If you have any specific questions about the Dark Magician or need advice on how to use it in your deck, feel free to ask!""
+", lookup_card, 
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
