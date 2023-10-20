@@ -1,95 +1,95 @@
-import axios, { AxiosResponse } from 'axios'
-import { nanoid } from 'nanoid'
+import axios, { AxiosResponse } from "axios";
+import { nanoid } from "nanoid";
 
-import React, { ChangeEvent, FC, useState } from 'react'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import React, { ChangeEvent, FC, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 interface ChatProps {
-	requestInProgress: boolean
-	setRequestInProgress: React.Dispatch<React.SetStateAction<boolean>>
+	requestInProgress: boolean;
+	setRequestInProgress: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const KaibaChat: FC<ChatProps> = ({
 	requestInProgress,
 	setRequestInProgress,
 }) => {
-	const [chat, setChat] = useState<string[]>([])
-	const [userMessage, setuserMessage] = useState<string>('')
-	const [conversationHistory, setConversationHistory] = useState<string[]>([])
+	const [chat, setChat] = useState<string[]>([]);
+	const [userMessage, setuserMessage] = useState<string>("");
+	const [conversationHistory, setConversationHistory] = useState<string[]>([]);
 
 	const isAwaitingResponse = (): boolean => {
 		if (requestInProgress) {
 			toast.warn("I'm working on it!", {
-				position: 'top-center',
+				position: "top-center",
 
 				closeOnClick: true,
 				pauseOnHover: true,
 				draggable: true,
-				theme: 'dark',
-			})
-			return true
+				theme: "dark",
+			});
+			return true;
 		}
-		return false
-	}
+		return false;
+	};
 
 	const isEmptyUserMessage = (): boolean => {
-		if (userMessage === '') {
-			toast.warn('No empty words please', {
-				position: 'top-center',
+		if (userMessage === "") {
+			toast.warn("No empty words please", {
+				position: "top-center",
 				closeOnClick: true,
 				pauseOnHover: true,
 				draggable: true,
-				theme: 'dark',
-			})
-			return true
+				theme: "dark",
+			});
+			return true;
 		}
-		return false
-	}
+		return false;
+	};
 
 	const sendConversation = async (conversationHistoryArray: string[]) => {
 		try {
 			const dataToSend = {
 				messageHistory: [...conversationHistoryArray],
-			}
-			const res: AxiosResponse = await axios.post('/api/kaibaChat', dataToSend)
+			};
+			const res: AxiosResponse = await axios.post("/api/kaibaChat", dataToSend);
 
 			if (res.status !== 200) {
-				throw new Error(`Req failed with status ${res.status}`)
+				throw new Error(`Req failed with status ${res.status}`);
 			}
-			setChat((chat) => [...chat, res.data.message])
-			setRequestInProgress(false)
+			setChat((chat) => [...chat, res.data.message]);
+			setRequestInProgress(false);
 		} catch (error: any) {
-			setRequestInProgress(false)
-			console.error(error.message)
-			toast.warning(error.response.data)
+			setRequestInProgress(false);
+			console.error(error.message);
+			toast.warning(error.response.data);
 		}
-	}
+	};
 	const getUpdatedConversationHistory = (): string[] => {
-		const updatedHistory = [...conversationHistory, userMessage]
-		setConversationHistory(updatedHistory)
-		return updatedHistory
-	}
+		const updatedHistory = [...conversationHistory, userMessage];
+		setConversationHistory(updatedHistory);
+		return updatedHistory;
+	};
 
 	const handleMessageSend = (): void => {
 		if (isEmptyUserMessage() || isAwaitingResponse()) {
-			return
+			return;
 		}
-		setuserMessage('')
-		setRequestInProgress(true)
-		sendConversation(getUpdatedConversationHistory())
-	}
+		setuserMessage("");
+		setRequestInProgress(true);
+		sendConversation(getUpdatedConversationHistory());
+	};
 
 	const sendMessageOnEnter = (e: { keyCode: number }) => {
 		if (e.keyCode === 13) {
-			handleMessageSend()
-			setuserMessage('')
+			handleMessageSend();
+			setuserMessage("");
 		}
-	}
+	};
 
-	const onchange = (e: ChangeEvent<HTMLTextAreaElement>): void => {
-		setuserMessage(`${e.target.value}`)
-	}
+	const onchange = (e: ChangeEvent<HTMLInputElement>): void => {
+		setuserMessage(`${e.target.value}`);
+	};
 
 	const renderChatHistory = () => {
 		return conversationHistory.map((msg, index) => (
@@ -97,41 +97,38 @@ const KaibaChat: FC<ChatProps> = ({
 				{<p id="user-text">{msg}</p>}
 				{chat[index] && <p id="bot-text">{chat[index]}</p>}
 			</div>
-		))
-	}
+		));
+	};
 	return (
 		<div className="container">
 			<div className="left">
 				{renderChatHistory()}
 				{requestInProgress && (
 					<img
-						style={{ display: 'block', width: '80px', margin: '0 auto' }}
+						style={{ display: "block", width: "80px", margin: "0 auto" }}
 						src="./loading.svg"
 					/>
 				)}
 			</div>
 			<div className="right">
 				<h3>Speak Peasant</h3>
-				<textarea
+				<input
 					onChange={onchange}
 					onKeyDown={sendMessageOnEnter}
 					value={userMessage}
 					name="textbox"
 					id=""
-					cols={70}
-					rows={10}
-					style={{ maxWidth: '480px', margin: '24px 0' }}
-				></textarea>
+					style={{ maxWidth: "480px", margin: "24px 0" }}
+				/>
 				<button
 					onClick={handleMessageSend}
-					style={{ display: 'block', margin: '0 auto', width: '160px' }}
-				>
+					style={{ display: "block", margin: "0 auto", width: "160px" }}>
 					Send
 				</button>
 			</div>
 			<ToastContainer />
 		</div>
-	)
-}
+	);
+};
 
-export default KaibaChat
+export default KaibaChat;
