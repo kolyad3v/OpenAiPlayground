@@ -11,6 +11,7 @@ import {
 	firstCompletion,
 	getCompletionWithMessages,
 } from "../utils";
+import { runAiFunctionCallAndGetMessage } from "../services/functionCallingFunction";
 
 const router = Router();
 
@@ -43,35 +44,32 @@ router.post("/", async (req: Request, res: Response) => {
 			return;
 		}
 
-		let functionDetailsForCSV: { name: string; argument: string } = {
-			name: "",
-			argument: "",
-		};
-
 		if (firstAiResponse.function_call) {
-			const availableFunctions = {
-				lookup_card: lookupCard,
-				lookup_ruling: lookupRuling,
-			};
-			const functionName = firstAiResponse.function_call.name;
-			functionDetailsForCSV.name = functionName;
-			//@ts-ignore
-			const functionToCall = availableFunctions[functionName];
-			const functionArgs = JSON.parse(firstAiResponse.function_call.arguments);
-			let functionResponse: string;
-			if (functionName === "lookup_card") {
-				functionResponse = functionToCall(functionArgs.cardName);
-			} else if (functionName === "lookup_ruling") {
-				functionResponse = functionToCall(functionArgs.topic);
-				functionDetailsForCSV.argument = functionArgs.topic;
-			} else {
-				throw new Error(`Error in handling function call ${functionName} `);
-			}
-			messages.push({
-				role: "function",
-				name: functionName,
-				content: functionResponse,
-			}); // extend conversation with function response
+			messages.push(runAiFunctionCallAndGetMessage(firstAiResponse));
+
+			// const availableFunctions = {
+			// 	lookup_card: lookupCard,
+			// 	lookup_ruling: lookupRuling,
+			// };
+			// const functionName = firstAiResponse.function_call.name;
+			// functionDetailsForCSV.name = functionName;
+			// //@ts-ignore
+			// const functionToCall = availableFunctions[functionName];
+			// const functionArgs = JSON.parse(firstAiResponse.function_call.arguments);
+			// let functionResponse: string;
+			// if (functionName === "lookup_card") {
+			// 	functionResponse = functionToCall(functionArgs.cardName);
+			// } else if (functionName === "lookup_ruling") {
+			// 	functionResponse = functionToCall(functionArgs.topic);
+			// 	functionDetailsForCSV.argument = functionArgs.topic;
+			// } else {
+			// 	throw new Error(`Error in handling function call ${functionName} `);
+			// }
+			// messages.push({
+			// 	role: "function",
+			// 	name: functionName,
+			// 	content: functionResponse,
+			// }); // extend conversation with function response
 		}
 
 		const secondAiResponse = await getCompletionWithMessages(openai, messages);

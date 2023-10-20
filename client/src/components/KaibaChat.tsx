@@ -87,7 +87,7 @@ const KaibaChat: FC<ChatProps> = ({
 		}
 	};
 
-	const onchange = (e: ChangeEvent<HTMLInputElement>): void => {
+	const onchange = (e: ChangeEvent<HTMLTextAreaElement>): void => {
 		setuserMessage(`${e.target.value}`);
 	};
 
@@ -111,14 +111,13 @@ const KaibaChat: FC<ChatProps> = ({
 				)}
 			</div>
 			<div className="right">
-				<h3>Speak Peasant</h3>
-				<input
+				<h1>Speak Peasant</h1>
+				<textarea
 					onChange={onchange}
 					onKeyDown={sendMessageOnEnter}
 					value={userMessage}
 					name="textbox"
-					id=""
-					style={{ maxWidth: "480px", margin: "24px 0" }}
+					id="user-input"
 				/>
 				<button
 					onClick={handleMessageSend}
