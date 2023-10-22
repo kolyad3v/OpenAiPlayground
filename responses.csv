@@ -690,3 +690,61 @@ test""
 test""
 ","""I'm sorry, but I can only provide assistance and information related to the Yu-Gi-Oh trading card game. If you have any questions or need help with the game, feel free to ask!""
 "
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""tell me about black land fire dragon""
+","""Ah, the Blackland Fire Dragon, a classic Yu-Gi-Oh monster card. This dragon dwells in the depths of darkness and possesses a unique vulnerability due to its poor eyesight. Here are its stats:
+
+- Attribute: DARK
+- Level: 4
+- Type: Dragon
+- ATK: 1500
+- DEF: 800
+
+As a Normal Monster, the Blackland Fire Dragon does not have any special effects or abilities. However, its decent ATK stat makes it a solid choice for early game aggression.
+
+Here is an image of the Blackland Fire Dragon for your reference:
+
+<img src=`https://images.ygoprodeck.com/images/cards/87564352.jpg` alt=`Blackland Fire Dragon` />
+
+Please note that the prices and availability of the card may vary.""
+", lookup_card, [object Object]
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""test""
+","""Hello! How can I assist you with the Yu-Gi-Oh trading card game?""
+"
+"""Tell me about dark magician""
+","""Dark Magician is a Level 7 Spellcaster-type monster with 2500 ATK and 2100 DEF. It is a powerful monster known as the ultimate wizard in terms of attack and defense. Dark Magician belongs to the Dark Magician archetype and has the DARK attribute.
+
+Dark Magician has been released in various sets and rarities, including Ultra Rare, Secret Rare, Rare, Super Rare, and more. Some notable sets include ""Legend of Blue Eyes White Dragon,"" ""Dark Beginning 1,"" ""Duelist Pack: Yugi,"" and ""Legendary Decks II.""
+
+As for its effect, Dark Magician is a Normal Monster, which means it does not have any effect text. It relies on its high ATK and DEF to dominate the field and defeat your opponent's monsters.
+
+If you need any further information or have specific questions about Dark Magician or any other Yu-Gi-Oh card, feel free to ask.""
+", lookup_card, [object Object]
+"""what is the extra Deck? ""
+","""The Extra Deck is a special deck in the Yu-Gi-Oh trading card game. It can contain up to 15 cards and is separate from your Main Deck. The Extra Deck is where you can keep your Xyz Monsters, Synchro Monsters, and Fusion Monsters. These cards are not counted towards the 40-card minimum limit of your Main Deck. So, in summary, the Extra Deck is where you keep your powerful fusion, synchro, and Xyz monsters that can greatly enhance your gameplay.""
+", lookup_ruling, [object Object]
+"""what would happen if I attacked with diabound, and then activated magic cylinder in response to that attack? Could I banish diabound and negate the attack? ""
+","""The Extra Deck is a special deck in the Yu-Gi-Oh trading card game where you can store Fusion, Synchro, Xyz, and Link Monsters. These monsters are summoned from the Extra Deck using specific materials and have powerful effects that can turn the tide of the game.
+
+If you attack with Diabound and your opponent activates Magic Cylinder in response, Magic Cylinder's effect would resolve before damage calculation. Magic Cylinder would deal damage to your opponent equal to the original ATK of Diabound, but it would not negate the attack. Diabound would not be banished in this scenario.""
+"
+"""what is blaze cannon?""
+","""Blaze Cannon is a Quick-Play Spell Card that is also treated as a ""Blaze Accelerator"" card. When you activate Blaze Cannon, one ""The Winged Dragon of Ra"" you control gains the following effects until the end of the turn:
+
+- This card is unaffected by your opponent's card effects.
+- When an attack is declared involving this card, you can Tribute any number of other monsters that did not declare an attack this turn. By doing so, this card gains ATK equal to the combined original ATK of the Tributed monsters until the end of the turn.
+- After damage calculation, if this card attacked, you can send all monsters your opponent controls to the Graveyard.
+
+Blaze Cannon's activation and effect cannot be negated. It is a powerful card that can help you control the field and boost the ATK of ""The Winged Dragon of Ra"". It is included in the Legendary Duelists: Rage of Ra set and is an Ultra Rare card.""
+", lookup_card, [object Object]
